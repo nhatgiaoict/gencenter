@@ -1,0 +1,31 @@
+#fileQueue {
+	width: 400px;
+	height: 300px;
+	overflow: auto;
+	border: 1px solid #E5E5E5;
+	margin-bottom: 10px;
+}
+
+#main
+{
+	margin:0 auto; 
+	text-align:left; 
+	width:200px; 
+	margin-top:5px; 
+	background:#aaa; 
+	padding:30px; 
+	height:200px;
+}
+
+#main.a {
+color:#0077CC;
+cursor:pointer;
+text-decoration:none;
+}
+
+div.demo {
+background-color:#e7e7ef;
+border:1px solid #E5E5E5;
+margin-bottom:20px;
+padding:0px;
+}

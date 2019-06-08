@@ -1,0 +1,20 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_aboutus.ascx.cs" Inherits="Home_uc_aboutus" %>
+<section id="s2home-bgimages">
+   <div class="container">
+       <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="view-info wow animated fadeIn animated" data-wow-delay="0.2s" >
+                <h1><asp:Literal ID="ltltitle" runat="server"></asp:Literal></h1>
+                <h2>S2 home</h2>
+                <p>
+                <asp:Literal ID="ltlSummary" runat="server"></asp:Literal>
+                <a id="hlink1" runat="server">Chi tiết</a>
+                </p>
+             </div>  
+         </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="view-img wow animated zoomIn animated" data-wow-delay="0.6s"><img id="imgmh" runat="server" src="data/images/lamoura.jpg" alt=""/></div>
+         </div>
+       </div>  
+    </div>
+</section>

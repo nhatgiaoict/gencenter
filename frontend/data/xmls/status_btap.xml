@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Status>
+		<id>0</id>
+		<vn>Chờ biên tập</vn>
+		<en>Waitting Edittor</en>
+	</Status>
+	<Status>
+		<id>1</id>
+		<vn>Đã biên tập</vn>
+		<en>Editted</en>
+	</Status>
+
+</DataSet>

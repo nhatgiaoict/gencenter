@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.IO;
+using System.Data;
+public partial class control_footer : System.Web.UI.UserControl
+{
+    private footter sfooter = new footter();
+    private Menus smenu = new Menus(6);
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            DataRow dr = sfooter.GetInfo("1");
+            if (sfooter.Getforfooter() != null)
+            {
+                ltlfooter.Text = sfooter.Getforfooter()["footertext"].ToString();
+            }
+            rptGF.DataSource = smenu.GetMenu();
+            rptGF.DataBind();
+            // Address
+            WebInfor sweb = new WebInfor();
+            DataRow drA = sweb.GetInfo();
+            if (drA != null)
+            {
+                ltlAddress.Text = drA["contact"].ToString().Trim();
+            }
+        }
+    }
+
+    protected void rptGF_ItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        if (e.Item.ItemIndex != -1 && e.Item.ItemType != ListItemType.Separator)
+        {
+            DataRowView dr = (DataRowView)e.Item.DataItem;
+            Repeater rptCon = (Repeater)e.Item.FindControl("rptCon");
+            if (dr != null)
+            {
+                rptCon.DataSource = smenu.GetChild(dr["pid"].ToString().Trim());
+                rptCon.DataBind();
+            }
+        }
+    }
+}

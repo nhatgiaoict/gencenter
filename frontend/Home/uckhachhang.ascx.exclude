@@ -1,0 +1,30 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uckhachhang.ascx.cs" Inherits="Home_uckhachhang" %>
+<div class="heading-catagories" id="team"> 
+<h2>Ý kiến khách hàng</h2>
+</div>
+<div class="arc-container">
+<div class="container">
+<div class="box-chung row">
+<ul class="slide-ykkh box-chung row">
+<asp:Repeater ID="rptKH" runat="server">
+<ItemTemplate>
+<li class="col-md-6 col-sm-6 col-xs-12 wow animated fadeIn animated" data-wow-delay="0.2s" id="yk">
+<div class="arc-team">
+    <div class="row">
+            <div class="arc-team-img">
+                <img src="<%#Eval("fimage")%>" alt="<%#Eval("title")%>" />
+            </div>
+            <div class="arc-team-info">
+                <h3><%#Eval("title")%></h3>
+                <p class="sapo"><%#Eval("summary") %></p>
+                <p class="sapo"><%#sContent(""+Eval("id")+"")%></p>
+            </div>
+        </div>
+    </div>
+        </li>
+</ItemTemplate>
+</asp:Repeater>
+</ul>
+</div>
+</div>
+</div>  

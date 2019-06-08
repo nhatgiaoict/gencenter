@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Status>
+		<id>10</id>
+		<vn>Tất cả</vn>
+		<en>All</en>
+	</Status>
+	<Status>
+		<id>2</id>
+		<vn>Bài chưa gửi ban biên tập</vn>
+		<en>The articles aren't sent yet</en>
+	</Status>
+	<Status>
+		<id>0</id>
+		<vn>Chờ đăng</vn>
+		<en>Offline</en>
+	</Status>
+	<Status>
+		<id>1</id>
+		<vn>Đang đăng</vn>
+		<en>Online</en>
+	</Status>
+	<Status>
+		<id>3</id>
+		<vn>Đang biên tập</vn>
+		<en>Editting</en>
+	</Status>
+</DataSet>

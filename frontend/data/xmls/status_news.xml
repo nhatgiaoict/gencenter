@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Status>
+		<id>0</id>
+		<vn>Tạo mới</vn>
+		<en>New create</en>
+	</Status>
+	<Status>
+		<id>1</id>
+		<vn>Đang đăng</vn>
+		<en>Online</en>
+	</Status>
+	<Status>
+		<id>2</id>
+		<vn>Tất cả</vn>
+		<en>All</en>
+	</Status>
+</DataSet>

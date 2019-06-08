@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+	<!--<Advpage>
+		<id>L</id>
+		<title>Bên trái - Left page</title>    
+	</Advpage>-->
+  <Advpage>
+    <id>M</id>
+    <title>Giữa trang - Mid page</title>
+  </Advpage>
+  <!--<Advpage>
+    <id>R</id>
+    <title>Bên phải - Right page</title>
+  </Advpage>-->
+</DataSet>

@@ -1,0 +1,22 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_tinhnang.ascx.cs" Inherits="Home_uc_tinhnang" %>
+<section id="advantage"> 
+<div class="container">
+<div class="row"> 
+<div class="slide-func">
+<asp:Repeater ID="rptF" runat="server">
+<ItemTemplate>
+<div class="list-item">
+<div class="list-thumb"><img src="/<%#Eval("fimage")%>" alt="<%#Eval("ptitle")%>" />
+<div class="title"><h4><%#Eval("ptitle")%></h4></div>
+</div>
+<div class="list-content">
+<p class="summary"><%#Eval("summary")%></p>  
+</div> <!-- /.list-content -->
+</div>
+</ItemTemplate>
+</asp:Repeater>
+
+</div>
+</div>
+</div> <!-- /.row -->
+</section>

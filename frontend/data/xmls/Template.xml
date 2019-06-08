@@ -1,0 +1,90 @@
+<gallery>
+	<!-- The line below sets the path to the folder where the images are stored -->
+  <setup>
+    <imgPath>Data/ImgAlbum/</imgPath>
+
+    <slideshowOn>true</slideshowOn>
+
+    <thumbScrollSpeed>20</thumbScrollSpeed>
+    <loadIndicatorOn>true</loadIndicatorOn>
+    <loadIndicatorColor>0xFFFFFF</loadIndicatorColor>
+    <slideshowDelay>4</slideshowDelay>
+    <stopAutoOnClick>true</stopAutoOnClick>
+    <randomImages>false</randomImages>
+    <slideshowLoop>true</slideshowLoop>
+    <bgCorner>10</bgCorner>
+    <bgAlpha>1</bgAlpha>
+    <bgColor>0xc6c6c6</bgColor>
+
+    <imgScaleMode>scaleToAreaWidth</imgScaleMode>
+    <imgScaleAlignVert>top</imgScaleAlignVert>
+    <imgScaleAlignHor>center</imgScaleAlignHor>
+    <imgMaskCorner>10</imgMaskCorner>
+    <imgAlpha>1</imgAlpha>
+    <imgShadowOn>true</imgShadowOn>
+    <imgShadowDistance>4</imgShadowDistance>
+    <imgShadowSize>4</imgShadowSize>
+    <imgShadowAngle>90</imgShadowAngle>
+
+    <imgCaptionFont>Verdana</imgCaptionFont>
+    <imgCaptionColor>0xFFFFFF</imgCaptionColor>
+    <imgCaptionSize>10</imgCaptionSize>
+    <imgCaptionAlpha>0.7</imgCaptionAlpha>
+    <imgCaptionPosition>bottom</imgCaptionPosition>
+    <imgCaptionBgColor>0x000000</imgCaptionBgColor>
+    <imgCaptionBgAlpha>0.3</imgCaptionBgAlpha>
+    <imgCaptionShadowOn>true</imgCaptionShadowOn>
+    <imgCaptionShow>onRollOver</imgCaptionShow>
+
+    <transitionEffect>zoom</transitionEffect>
+    <transitionStartPoint>right</transitionStartPoint>
+    <transitionDirection>horizontal/ccw</transitionDirection>
+    <transitionRotateDegrees>820</transitionRotateDegrees>
+    <transitionIrisShape>square</transitionIrisShape>
+    <transitionPixelDissolveSize>10</transitionPixelDissolveSize>
+    <transitionEasingType>strong</transitionEasingType>
+    <transitionEasingFunction>out</transitionEasingFunction>
+    <transitionTime>1</transitionTime>
+
+    <thumbWidth>40</thumbWidth>
+    <thumbHeight>30</thumbHeight>
+    <thumbMaskCorner>5</thumbMaskCorner>
+
+    <spaceBetweenThumbs>10</spaceBetweenThumbs>
+    <thumbRowsCount>1</thumbRowsCount>
+    <thumbPosition>bottom</thumbPosition>
+    <thumbToImgSpace>15</thumbToImgSpace>
+    <thumbAlpha>0.5</thumbAlpha>
+    <thumbReflectionsOn>true</thumbReflectionsOn>
+    <thumbReflectionsAlpha>0.7</thumbReflectionsAlpha>
+    <thumbReflectionsHeight>20</thumbReflectionsHeight>
+    <thumbPreviewOn>true</thumbPreviewOn>
+    <thumbPreviewMaskCorner>5</thumbPreviewMaskCorner>
+    <thumbPreviewWidth>160</thumbPreviewWidth>
+    <thumbPreviewHeight>120</thumbPreviewHeight>
+    <thumbPreviewDistance>8</thumbPreviewDistance>
+    <thumbPreviewAlpha>0.9</thumbPreviewAlpha>
+    <thumbPreviewDelay>0.1</thumbPreviewDelay>
+    <thumbPreviewShowAnimationTime>1</thumbPreviewShowAnimationTime>
+    <thumbSoundOnRollover>sounds/over.mp3</thumbSoundOnRollover>
+    <thumbSoundOnClick>sounds/click.mp3</thumbSoundOnClick>
+    <thumbOutlineThick>1</thumbOutlineThick>
+    <thumbOutlineAlpha>1</thumbOutlineAlpha>
+    <thumbOutlineColor>0x000000</thumbOutlineColor>
+    <thumbOutlineColorRoll>0xFFFFFF</thumbOutlineColorRoll>
+    <thumbOutlineColorActive>0x8B0000</thumbOutlineColorActive>
+    <thumbShadowOn>true</thumbShadowOn>
+    <thumbShadowDistance>4</thumbShadowDistance>
+    <thumbShadowSize>4</thumbShadowSize>
+    <thumbShadowAngle>90</thumbShadowAngle>
+
+    <showButtonsOn>true</showButtonsOn>
+    <buttonsAlignVert>top</buttonsAlignVert>
+    <buttonsAlignHor>right</buttonsAlignHor>
+
+    <backgroundImgPath>Data/ImgAlbum/bg.jpg</backgroundImgPath>
+    <backgroundImgAlpha>0</backgroundImgAlpha>
+
+  </setup>
+	
+</gallery>

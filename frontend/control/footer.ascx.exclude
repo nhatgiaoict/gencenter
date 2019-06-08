@@ -1,0 +1,31 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="footer.ascx.cs" Inherits="control_footer" %>
+<footer>
+       <section id="footer-top"> 
+          <div class="container">
+             <div class="row">
+             <asp:Repeater ID="rptGF" runat="server" onitemdatabound="rptGF_ItemDataBound">
+             <ItemTemplate>
+             <div class="col-md-6 col-sm-6 col-xs-12">
+                     <ul class="quick-links">
+                            <li><h3><span><%#Eval("ptitle")%></span></h3></li>
+                            <asp:Repeater ID="rptCon" runat="server"><ItemTemplate><li><a href="<%#CMDU.CommanUrl.UrlGroup(""+Eval("plink")+"",""+Eval("shortlink")+"")%>"><%#Eval("ptitle")%></a></li></ItemTemplate></asp:Repeater>
+                      </ul>
+                 </div>
+             </ItemTemplate>
+             </asp:Repeater>
+                 <div class="col-md-6 col-sm-6 col-xs-12 fthome">
+                     <h3 class="foot">Fanpage</h3>
+                     <%--<div class="fb-page" data-href="https://www.facebook.com/CongTyCpKienTrucRubikVietNam/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/CongTyCpKienTrucRubikVietNam/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CongTyCpKienTrucRubikVietNam/">Kiến trúc nhà đẹp</a></blockquote></div>--%>
+                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCongTyCpKienTrucRubikVietNam%2F&tabs&width=300px&height=200px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="290px" height="130px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                 </div>
+                 <div class="col-md-6 col-sm-6 col-xs-12 fthome">
+                 <asp:Literal ID="ltlAddress" runat="server"></asp:Literal>
+                 </div>
+             </div>
+          </div>
+       </section>
+       <section id="footer-bottom"><p><asp:Literal ID="ltlfooter" runat="server"></asp:Literal></p> </section> 
+</footer>
+<a href="#" class="cd-top">Top</a>
+
+

@@ -1,0 +1,208 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using uss.utils;
+
+public partial class news_logfile : System.Web.UI.UserControl
+{
+    public string UrlImages
+    {
+        get
+        {
+            return Globals.UrlImages;
+        }
+    }
+    private static UssUrl sUrl
+    {
+        get
+        {
+            return new UssUrl();
+        }
+    }
+    private string LogID
+    {
+        get
+        {
+            UssUrl sUrl = new UssUrl();
+            return sUrl.GetParam("ID");
+        }
+    }
+    private static string Title = "";
+    private static int test_lang = 0;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!this.IsPostBack)
+        {
+            Member mem = new Member();
+            DataRow dr = mem.GetInfoName(Membertask.Name);
+            string vusername = dr["username"].ToString().Trim();
+
+            string sLang = Globals.CurrentLang;
+            if (sLang == "vn")
+            {
+                sLang = "vi";
+                test_lang = 1;
+            }
+            else
+            {
+                test_lang = 2;
+            }
+            ltlLabTitle.Text = Language.GetTextByID(172);
+
+            News anews = new News();
+            DataRow drow = anews.GetInfo(LogID);
+
+            string aLogID = drow["id"].ToString().Trim();
+            Title = drow["title"].ToString().Trim();
+
+            //				string PageQuery = "page";
+            //				string strcPage = Request.QueryString[PageQuery];
+            //				if (strcPage == null)
+            //					strcPage = "1";
+            //				int cPage = Convert.ToInt32(strcPage);
+            //				int TotalRecords, TotalPages;
+
+            string LogId = aLogID;
+            Logfile log = new Logfile();
+            rptLogFile.DataSource = log.SearchingLog(LogId);
+            rptLogFile.DataBind();
+
+
+            //				PageList2.m_pTotalPage = TotalPages;
+            //				PageList2.m_pPageQuery = PageQuery;
+            //				PageList2.m_pCurrentPage = cPage;
+            //				PageList2.m_pIconPath = Globals.UrlImages;
+            //
+            //				if(TotalRecords == 0)
+            //				{
+            //					ltlTotal1.Visible = false;
+            //					
+            //				}
+
+            //				else
+            //				{
+            //					ltlTotal1.Text = ltlTotal1.Text = string.Format(Language.GetTextByID(45),TotalRecords);
+            //					
+            //				}
+
+        }
+
+    }
+    protected void rptLogFile_ItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        if (e.Item.ItemType == ListItemType.Header)
+        {
+            Literal ltlIndexHeader = (Literal)e.Item.FindControl("ltlIndexHeader");
+            ltlIndexHeader.Text = Language.GetTextByID(40);
+
+            Literal ltlTitleHeader = (Literal)e.Item.FindControl("ltlTitleHeader");
+            ltlTitleHeader.Text = Language.GetTextByID(29);
+
+
+            Literal ltlTimeHeader = (Literal)e.Item.FindControl("ltlTimeHeader");
+            ltlTimeHeader.Text = Language.GetTextByID(167);
+
+            Literal ltlStatusHeader = (Literal)e.Item.FindControl("ltlStatusHeader");
+            ltlStatusHeader.Text = Language.GetTextByID(39);
+
+            Literal ltlUserHeader = (Literal)e.Item.FindControl("ltlUserHeader");
+            ltlUserHeader.Text = Language.GetTextByID(168);
+
+            Literal ltlNoteHeader = (Literal)e.Item.FindControl("ltlNoteHeader");
+            ltlNoteHeader.Text = Language.GetTextByID(169);
+        }
+        if (e.Item.ItemIndex != -1 && e.Item.ItemType != ListItemType.Separator)
+        {
+            HtmlTableRow trItems = (HtmlTableRow)e.Item.FindControl("trItems");
+            Literal ltlID = (Literal)e.Item.FindControl("ltlID");
+            Literal ltlTitle = (Literal)e.Item.FindControl("ltlTitle");
+            Literal ltlTime = (Literal)e.Item.FindControl("ltlTime");
+            Literal ltlStatus = (Literal)e.Item.FindControl("ltlStatus");
+            Literal ltlUsers = (Literal)e.Item.FindControl("ltlUsers");
+            Literal ltlNote = (Literal)e.Item.FindControl("ltlNote");
+
+            DataRowView dr = (DataRowView)e.Item.DataItem;
+            
+            if (dr != null)
+            {
+                if (e.Item.ItemIndex % 2 == 1)
+                    trItems.Attributes.Add("class", "alter");
+                else
+                    trItems.Attributes.Add("class", "item");
+
+                ltlID.Text = (e.Item.ItemIndex + 1).ToString();
+
+                ltlTitle.Text = Title;
+                ltlTime.Text = Globals.FullDateTime(Convert.ToDateTime(dr["Ngaythang"]));
+
+                ltlUsers.Text = dr["userId"].ToString();
+                ltlNote.Text = dr["GhiChu"].ToString();
+
+                if (test_lang != 2)
+                {
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 0)
+                    {
+                        ltlStatus.Text = "Chưa đăng hoặc đã gỡ xuống";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 1)
+                    {
+                        ltlStatus.Text = "Đang đăng";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 2)
+                    {
+                        ltlStatus.Text = "Tạo mới";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 3)
+                    {
+                        ltlStatus.Text = "Đang biên tập";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 4)
+                    {
+                        ltlStatus.Text = "Đang chờ duyệt";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 5)
+                    {
+                        ltlStatus.Text = "Trả lại";
+                    }
+                }
+                else
+                {
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 0)
+                    {
+                        ltlStatus.Text = "OffLine to Turn off";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 1)
+                    {
+                        ltlStatus.Text = "OnLine";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 2)
+                    {
+                        ltlStatus.Text = "New Create";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 3)
+                    {
+                        ltlStatus.Text = "Editting";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 4)
+                    {
+                        ltlStatus.Text = "Checking wait";
+                    }
+                    if (Convert.ToInt32(dr["TrangthaiID"].ToString()) == 5)
+                    {
+                        ltlStatus.Text = "Return";
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}

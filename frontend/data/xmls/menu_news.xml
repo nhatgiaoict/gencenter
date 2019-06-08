@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Menu>
+		<id>1</id>
+		<title>Menu trên top - Top Menu</title>
+	</Menu>
+  <Menu>
+    <id>2</id>
+    <title>Danh mục sản phẩm trang chủ</title>
+  </Menu>
+  <Menu>
+    <id>3</id>
+  <title>Danh mục tin tức ở trang chủ</title>
+  </Menu>
+  <Menu>
+    <id>5</id>
+    <title>Danh mục sản phẩm dịch vụ bên phải trang cấp 1</title>
+  </Menu>
+  <Menu>
+    <id>6</id>
+    <title>Danh mục tin tức cuối trang</title>
+  </Menu>
+</DataSet>

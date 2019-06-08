@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Home_uc_aboutus : System.Web.UI.UserControl
+{
+    private News sNew = new News();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!this.IsPostBack)
+        {
+            DataTable dt = sNew.GetNewAboutUs(1);
+            if (dt.Rows.Count > 0)
+            {
+                ltltitle.Text = dt.Rows[0]["title"].ToString().Trim();
+                ltlSummary.Text = dt.Rows[0]["summary"].ToString().Trim();
+                imgmh.Src = dt.Rows[0]["fimage"].ToString().Trim();
+                hlink1.HRef = "/" + dt.Rows[0]["shortlink"].ToString().Trim() + ".html";
+            }
+        }
+    }
+}

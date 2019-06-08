@@ -1,0 +1,173 @@
+/* r.a.d.calendar default embedded skin */
+
+table.calendarWrapper
+{
+	background: #fff url(Img/calendarWrapperBg.gif) repeat-x;
+	cursor: default;
+	border: solid 1px #e5e5e5;
+	border-bottom:0;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(Color=e5e5e5,offX=2,offY=2,positive=true);
+}
+
+.TableLayout
+{
+	width: 100%;
+}
+
+.TableLayout td
+{
+	border-bottom: solid 1px #dfdfdf;
+	width: 20px;
+	font: normal 11px Arial, Verdana, Sans-serf;
+}
+
+.TableLayout td a
+{
+	text-align: center;
+	height: 13px;
+	padding: 1px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	cursor: default;
+}
+
+.DaysOfWeek
+{
+	color: #666666;
+	text-align: center;
+	text-transform: uppercase;
+	height: 17px;
+	border-bottom: solid 1px #dfdfdf;
+	background: url('Img/titlebarBg.gif');
+}
+
+.otherMonth span
+{
+	color: #d1d1d1;
+	padding: 1px;
+	display: block;
+	width: 100%;
+	text-align: center !important;
+	height: 13px;
+	margin: 1px;
+}
+
+.outOfRange span
+{
+	background: #fff;
+	color: #d1d1d1;
+	padding: 1px;
+	display: block;
+	width: 100%;
+	text-align: center !important;
+	height: 13px;
+	margin: 1px;
+}
+
+.titlebar
+{
+	font: bold 11px Arial, Verdana, Sans-serf;
+	height: 20px !important;
+	border-bottom: solid 1px #bbb;
+	width: 100%;
+	color: #666;
+}
+
+.titlebar img
+{
+}
+
+.MonthYearFastNav
+{
+	border: solid 1px #e5e5e5;
+	font: normal 10px Arial, Verdana, Sans-serf;
+	background: #fff;	
+	cursor: default;
+	border-bottom:0;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(Color=e5e5e5,offX=2,offY=2,positive=true);
+	color: #000;
+	border-collapse: collapse;
+}
+
+.MonthYearFastNav td
+{
+	vertical-align: middle;	
+}
+
+.MonthYearFastNav td.selected
+{
+	background: #909090;
+	border: solid 1px #909090;
+	color: white !important;
+	text-align: center;
+}
+
+.MonthYearFastNav td input
+{
+	background: transparent url(Img/MonthYearFastNavBtnBg.gif) repeat-x;
+	border: solid 1px #000;
+	font: normal 10px Arial, Verdana, Sans-serf;
+	color: #000000;
+	float: left;
+	width: auto;
+	margin-right: 1px;
+}
+
+.radCalHover a,
+.radCalWeekendHover a
+{
+	background: #e4e4e4;
+	width: 100% !important;
+	height: 13px;
+	display: block;
+	border: solid 1px #e4e4e4;
+}
+
+.radCalDefault a,
+.radCalWeekendDefault a
+{
+	margin: 1px;
+	width: 100% !important;
+	height: 13px;
+	display: block;
+	text-decoration: none;
+	color: #363636;
+}
+
+.radCalToday a
+{
+	background: #fff;
+	border: solid 1px #909090;
+}
+
+.radCalTodaySelected a
+{
+	background: #909090;
+	border: solid 1px #909090;
+	color: white !important;
+}
+
+.radCalTodaySelected
+{
+	background: #909090 !important;
+	border: solid 1px #909090;
+	color: white !important;
+}
+
+.radCalSelect a,
+.radCalWeekendSelect a
+{
+	background: #909090;
+	border: solid 1px #909090;
+	width: 100% !important;
+	color: white !important;
+	text-align: center !important;
+}
+
+.radCalSelect,
+.radCalWeekendSelect
+{
+	background: #909090 !important;
+	color: white !important;
+}

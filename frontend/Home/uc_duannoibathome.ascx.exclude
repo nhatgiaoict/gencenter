@@ -1,0 +1,24 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_duannoibathome.ascx.cs" Inherits="Home_uc_duannoibathome" %>
+<section id="s2home-bietthu">
+     <div class="box-s2home-villa">
+	     <h2>Dự án</h2>
+		 <span>Mới cập nhật</span>
+         <p class="wow animated fadeIn animated" data-wow-delay="0.2s">
+         <asp:Literal ID="ltlMota" runat="server"></asp:Literal>
+         </p> 
+	 </div>
+     <div class="elip-box-s2home"> 
+        <div class="container">
+          <ul class="box-chung row">
+          <asp:Repeater ID="rptSP" runat="server">
+          <ItemTemplate>
+          <li class="col-md-4 col-sm-6 wow animated fadeIn animated" data-wow-delay="0.2s">
+                  <figure><img src="<%#Eval("fimage")%>" alt="<%#Eval("title")%>" /></figure>
+                  <h3><a href="/<%#Eval("shortlink")%>.html"><%#Eval("title")%></a></h3> 
+              </li>
+          </ItemTemplate>
+          </asp:Repeater>
+          </ul> 
+       </div>
+     </div>
+</section><!--End-s2home-bietthu-->  

@@ -1,0 +1,85 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+/// <summary>
+/// Summary description for Culture
+/// </summary>
+public class Culture
+{
+    private static string _TableName
+    {
+        get { return "tbl_publish_" + Globals.CurrentLang; }
+    }
+    private static string TableName_Culture
+    {
+        get { return "tbl_publish_technical_" + Globals.CurrentLang; }
+    }
+    private static string TableName_MoiNhat
+    {
+        get { return "tbl_publish_moinhat_" + Globals.CurrentLang; }
+    }
+    private static string TableName_DownLoad
+    {
+        get { return "tbl_publish_DownLoad_" + Globals.CurrentLang; }
+    }
+    public DataTable GetInforTable_Culture()
+    {
+        DbTask db = new DbTask();
+        string tbl_News = News.TableName;
+        string Sql = "SELECT " + tbl_News + ".*, " + TableName_Culture + ".idx AS idx FROM " + tbl_News + " INNER JOIN " + TableName_Culture + " ON " + tbl_News + ".id = " + TableName_Culture + ".id ";
+        Sql += "WHERE " + tbl_News + ".status = 1 ";
+        Sql += "ORDER BY " + TableName_Culture + ".idx ASC, " + tbl_News + ".created DESC ";        
+        return db.GetData(Sql);
+    }
+    public DataTable GetInfoTable_download()
+    {
+        DbTask db = new DbTask();
+        string tbl_News = News.TableName;
+        string Sql = "SELECT " + tbl_News + ".*, " + TableName_DownLoad + ".idx AS idx FROM " + tbl_News + " INNER JOIN " + TableName_DownLoad + " ON " + tbl_News + ".id = " + TableName_DownLoad + ".id ";
+        Sql += "WHERE " + tbl_News + ".status = 1 ";
+        Sql += "ORDER BY " + TableName_DownLoad + ".idx ASC, " + tbl_News + ".created DESC ";
+        return db.GetData(Sql);
+    }
+    public DataRow GetInfor_Culture(int RecordPages)
+    {
+        DbTask db = new DbTask();
+        string tbl_News = News.TableName;
+        string Sql = "SELECT TOP " + RecordPages + " " + tbl_News + ".*, " + TableName_Culture + ".idx AS idx FROM " + tbl_News + " INNER JOIN " + TableName_Culture + " ON " + tbl_News + ".id = " + TableName_Culture + ".id ";
+        Sql += "WHERE " + tbl_News + ".status = 1 ";
+        Sql += "ORDER BY " + TableName_Culture + ".idx ASC, " + tbl_News + ".created DESC ";
+        //Sql += " LIMIT 0, " + RecordPages + " ";
+        DataTable dt = db.GetData(Sql);
+        if (dt == null || dt.Rows.Count == 0)
+            return null;
+        return dt.Rows[0];
+    }
+    public DataTable GetInforTable_MoiNhat()
+    {
+        DbTask db = new DbTask();
+        string tbl_News = this.TableName;
+        string Sql = "SELECT " + tbl_News + ".*, " + TableName_MoiNhat + ".idx AS idx FROM " + tbl_News + " INNER JOIN " + TableName_MoiNhat + " ON " + tbl_News + ".id = " + TableName_MoiNhat + ".id ";
+        Sql += "WHERE " + tbl_News + ".status = 1 ";
+        Sql += "ORDER BY " + TableName_MoiNhat + ".idx ASC, " + tbl_News + ".created DESC ";
+        return db.GetData(Sql);
+    }
+    public DataRow GetInfor_MoiNhat(int RecordPages)
+    {
+        DbTask db = new DbTask();
+        string tbl_News = this.TableName;
+        string Sql = "SELECT Top " + RecordPages + " " + tbl_News + ".*, " + TableName_MoiNhat + ".idx AS idx FROM " + tbl_News + " INNER JOIN " + TableName_MoiNhat + " ON " + tbl_News + ".id = " + TableName_MoiNhat + ".id ";
+        Sql += "WHERE " + tbl_News + ".status = 1 ";
+        Sql += "ORDER BY " + TableName_MoiNhat + ".idx ASC, " + tbl_News + ".created DESC ";
+        //Sql += " LIMIT 0, " + RecordPages + " ";
+        DataTable dt = db.GetData(Sql);
+        if (dt == null || dt.Rows.Count == 0)
+            return null;
+        return dt.Rows[0];
+    }
+}

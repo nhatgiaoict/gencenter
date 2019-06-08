@@ -1,0 +1,169 @@
+/* r.a.d.calendar WebBlue skin */
+
+table.calendarWrapper
+{
+	background: white;
+	cursor: default;
+	border: solid 1px #a0aab6;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(Color=a0aab6,offX=2,offY=2,positive=true);
+}
+
+.TableLayout td
+{
+	border-bottom: solid 1px #f4f4f4;
+	width: 20px;
+	font: normal 11px Arial, Verdana, Sans-serf;
+}
+
+.TableLayout td a
+{
+	text-align: center;
+	width: 15px;
+	height: 13px;
+	padding: 1px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	cursor: default;
+}
+
+.DaysOfWeek
+{
+	color: #535353;
+	text-align: center;
+	text-transform: uppercase;
+	height: 17px;
+	border-bottom: solid 1px #dde1e4 !important;
+	background: url('Img/DaysOfWeekBg.gif');
+}
+
+.otherMonth span
+{
+	color: #d1d1d1;
+	padding: 1px;
+	display: block;
+	width: 100%;
+	text-align: center !important;
+	height: 13px;
+	margin: 1px;
+}
+
+.outOfRange span
+{
+	background: #fff;
+	color: #d1d1d1;
+	padding: 1px;
+	display: block;
+	width: 100%;
+	text-align: center !important;
+	height: 13px;
+	margin: 1px;
+}
+
+.titlebar
+{
+	font: bold 11px Arial, Verdana, Sans-serf;
+	height: 20px !important;
+	border-bottom: solid 1px #8a9db5;
+	width: 100%;
+	color: white;
+	background: #b9c4d2 url('Img/titlebarBg.gif') repeat-x;
+}
+
+.titlebar img
+{
+
+}
+
+.MonthYearFastNav
+{
+	border: 1px solid #a0aab6;
+	background: white;
+	font: normal 8pt Tahoma;
+	color: #000;
+	border-collapse: separate;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(Color=a0aab6,offX=2,offY=2,positive=true);
+	cursor: hand;
+	cursor: pointer;
+}
+
+.MonthYearFastNav td
+{
+	background: white;
+	vertical-align: middle;
+	text-align: center;
+	border: solid 1px white !important;
+}
+
+.MonthYearFastNav td.selected
+{
+	background: #f9f6dd;
+	color: black;
+	text-align: center;
+	border: solid 1px #e3d7c0 !important;
+}
+
+.MonthYearFastNav td.bottom
+{
+	text-align: right;
+	padding-left: 9px;
+}
+
+.MonthYearFastNav td input
+{
+	background: #ced8dd;
+	border: solid 1px #69798c;
+	font: normal 11px Arial, Verdana, Sans-serf;
+	color: #000000;
+	float: left;
+	width: auto;
+	margin-right: 6px;
+}
+
+.radCalDefault a:hover,
+.radCalHover a:hover,
+.radCalWeekendDefault a:hover, 
+.radCalWeekendHover a:hover
+{
+	background: #f9f6dd;
+	height: 13px;
+	border: solid 1px #e3d7c0;
+	display: block;
+}
+
+.radCalDefault a,
+.radCalHover a,
+.radCalWeekendDefault a, 
+.radCalWeekendHover a
+{
+	background: #fff;
+	border: solid 1px #fff;
+	text-align: right;
+	height: 13px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.radCalToday a
+{
+	background: white;
+	border: solid 1px #a0aab6;
+	color: black !important;
+}
+
+.radCalTodaySelected a
+{
+	background: #ced8dd;
+	border: solid 1px #a0aab6;
+	color: black !important;
+}
+
+.radCalSelect a,
+.radCalWeekendSelect a
+{
+	background: #ced8dd;
+	border: solid 1px #a0aab6;
+	color: black !important;
+	text-align: center !important;
+}

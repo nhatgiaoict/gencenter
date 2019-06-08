@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Status>
+		<id>2</id>
+		<vn>Tất cả trang thái</vn>
+		<en>All</en>
+	</Status>
+	<Status>
+		<id>0</id>
+		<vn>Không hiển thị</vn>
+		<en>OffLine</en>
+	</Status>
+	<Status>
+		<id>1</id>
+		<vn>Hiển thị</vn>
+		<en>OnLine</en>
+	</Status>
+	
+
+</DataSet>

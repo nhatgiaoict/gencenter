@@ -1,0 +1,2071 @@
+
+<DataSet>
+	<Language>
+		<id>1</id>
+		<vn>Chọn Ngôn ngữ</vn>
+		<en>Select Language</en>
+	</Language>
+	<Language>
+		<id>2</id>
+		<vn>Thành viên</vn>
+		<en>User</en>
+	</Language>
+	<Language>
+		<id>3</id>
+		<vn>Quản trị thành viên</vn>
+		<en>Member Manager</en>
+	</Language>
+	<Language>
+		<id>4</id>
+		<vn>Thêm mới thành viên</vn>
+		<en>Register Member</en>
+	</Language>
+	<Language>
+		<id>5</id>
+		<vn>Giới thiệu</vn>Đ
+		<en>Introduce</en>
+	</Language>
+	<Language>
+		<id>6</id>
+		<vn>Quản trị bài viết giới thiệu</vn>
+		<en>Introduce Manager</en>
+	</Language>
+	<Language>
+		<id>7</id>
+		<vn>Thêm mới bài viết giới thiệu</vn>
+		<en>Register Introduce</en>
+	</Language>
+	<Language>
+		<id>8</id>
+		<vn>Quản trị nội dung</vn>
+		<en>Manager Content</en>
+	</Language>
+	<Language>
+		<id>9</id>
+		<vn>Danh sách bài đã duyệt</vn>
+		<en>Article list checked</en>
+	</Language>
+	<Language>
+		<id>10</id>
+		<vn>Danh sách bài chờ duyệt</vn>
+		<en>List Article Checking</en>
+	</Language>
+	<Language>
+		<id>11</id>
+		<vn>Tổ chức </vn>
+		<en>Organization</en>
+	</Language>
+	<Language>
+		<id>12</id>
+		<vn>Tổ chức tin theo chuyên mục</vn>
+		<en>Group Organization</en>
+	</Language>
+	<Language>
+		<id>13</id>
+		<vn>Tổ chức tin tức nổi bật</vn>
+		<en>News Organization</en>
+	</Language>
+	<Language>
+		<id>14</id>
+		<vn>Tổ chức Menu tin tức</vn>
+		<en>News Menu Organization</en>
+	</Language>
+	<Language>
+		<id>15</id>
+		<vn>Menu trên</vn>
+		<en>Top Menu</en>
+	</Language>
+	<Language>
+		<id>16</id>
+		<vn>Menu trái</vn>
+		<en>Left Menu</en>
+	</Language>
+	<Language>
+		<id>17</id>
+		<vn>Menu dưới</vn>
+		<en>Bottom Menu</en>
+	</Language>
+	<Language>
+		<id>18</id>
+		<vn>Danh sách chuyên mục tự do</vn>
+		<en>Group Free</en>
+	</Language>
+	<Language>
+		<id>19</id>
+		<vn>Tin ảnh</vn>
+		<en>Image</en>
+	</Language>
+	<Language>
+		<id>20</id>
+		<vn>Phản hồi</vn>
+		<en>Inquire</en>
+	</Language>
+	<Language>
+		<id>21</id>
+		<vn>Có</vn>
+		<en>Yes</en>
+	</Language>
+	<Language>
+		<id>22</id>
+		<vn>Không</vn>
+		<en>No</en>
+	</Language>
+	<Language>
+		<id>23</id>
+		<vn>Hệ Thống Quản Lý WebSite.</vn>
+		<en>WelCome to WebSite - Online Management System</en>
+	</Language>
+	<Language>
+		<id>24</id>
+		<vn>Cá nhân</vn>
+		<en>Profile</en>
+	</Language>
+	<Language>
+		<id>25</id>
+		<vn>Thông tin cá nhân</vn>
+		<en>My Profile</en>
+	</Language>
+	<Language>
+		<id>26</id>
+		<vn>Đổi mật khẩu</vn>
+		<en>Change Password</en>
+	</Language>
+	<Language>
+		<id>27</id>
+		<vn>Thoát</vn>
+		<en>Sign Out</en>
+	</Language>
+	<Language>
+		<id>28</id>
+		<vn>*  Thông tin yêu cầu bắt buộc</vn>
+		<en>*  Required Field</en>
+	</Language>
+	<Language>
+		<id>29</id>
+		<vn>Tiêu đề</vn>
+		<en>Title</en>
+	</Language>
+	<Language>
+		<id>30</id>
+		<vn>Phải nhập tiêu đề</vn>
+		<en>Please enter title</en>
+	</Language>
+	<Language>
+		<id>31</id>
+		<vn>Nội dung tóm tắt</vn>
+		<en>Summary</en>
+	</Language>
+	<Language>
+		<id>32</id>
+		<vn>Phải nhập tóm tắt</vn>
+		<en>Please enter summary</en>
+	</Language>
+	<Language>
+		<id>33</id>
+		<vn>Ảnh minh hoạ</vn>
+		<en>Image</en>
+	</Language>
+	<Language>
+		<id>34</id>
+		<vn>Phải nhập tên và chọn ảnh</vn>
+		<en>Please input name and select image file</en>
+	</Language>
+	<Language>
+		<id>35</id>
+		<vn>Nội dung</vn>
+		<en>Content</en>
+	</Language>
+	<Language>
+		<id>36</id>
+		<vn>Phải nhập nội dung</vn>
+		<en>Please content</en>
+	</Language>
+	<Language>
+		<id>37</id>
+		<vn>Cập nhật</vn>
+		<en>Update</en>
+	</Language>
+	<Language>
+		<id>38</id>
+		<vn>Từ khoá</vn>
+		<en>Keyword</en>
+	</Language>
+	<Language>
+		<id>39</id>
+		<vn>Trạng thái</vn>
+		<en>Status</en>
+	</Language>
+	<Language>
+		<id>40</id>
+		<vn>STT</vn>
+		<en>Index</en>
+	</Language>
+	<Language>
+		<id>41</id>
+		<vn>Ngày cập nhật</vn>
+		<en>Last Update</en>
+	</Language>
+	<Language>
+		<id>42</id>
+		<vn>Sửa</vn>
+		<en>Edit</en>
+	</Language>
+	<Language>
+		<id>43</id>
+		<vn>Xoá</vn>
+		<en>Delete</en>
+	</Language>
+	<Language>
+		<id>44</id>
+		<vn>Bạn có thực sự muốn xoá?</vn>
+		<en>Are you sure want to delete?</en>
+	</Language>
+	<Language>
+		<id>45</id>
+		<vn>Tìm thấy {0} bài viết.</vn>
+		<en>Result for {0} document.</en>
+	</Language>
+	<Language>
+		<id>46</id>
+		<vn>Bật</vn>
+		<en>Online</en>
+	</Language>
+	<Language>
+		<id>47</id>
+		<vn>Tắt</vn>
+		<en>Offline</en>
+	</Language>
+	<Language>
+		<id>48</id>
+		<vn>Cập nhật STT</vn>
+		<en>Update Index</en>
+	</Language>
+	<Language>
+		<id>49</id>
+		<vn>Sửa thông tin bài viết</vn>
+		<en>Edit Document</en>
+	</Language>
+	<Language>
+		<id>50</id>
+		<vn>Nhóm</vn>
+		<en>Group</en>
+	</Language>
+	<Language>
+		<id>51</id>
+		<vn>Nhóm gốc</vn>
+		<en>Root</en>
+	</Language>
+	<Language>
+		<id>52</id>
+		<vn>Tác giả</vn>
+		<en>Author</en>
+	</Language>
+	<Language>
+		<id>53</id>
+		<vn>Phải nhập tác giả</vn>
+		<en>Please enter Author</en>
+	</Language>
+	<Language>
+		<id>54</id>
+		<vn>Nhà xuất bản</vn>
+		<en>Publishing house</en>
+	</Language>
+	<Language>
+		<id>55</id>
+		<vn>Phải nhập nhà xuất bản</vn>
+		<en>Please enter publishing house</en>
+	</Language>
+	<Language>
+		<id>56</id>
+		<vn>Sửa thông tin sách</vn>
+		<en>Book edit</en>
+	</Language>
+	<Language>
+		<id>57</id>
+		<vn>Tên truy cập</vn>
+		<en>Username</en>
+	</Language>
+	<Language>
+		<id>58</id>
+		<vn>Phải nhập tên truy cập</vn>
+		<en>Please enter username</en>
+	</Language>
+	<Language>
+		<id>59</id>
+		<vn>Mật khẩu</vn>
+		<en>Password</en>
+	</Language>
+	<Language>
+		<id>60</id>
+		<vn>Phải nhập mật khẩu</vn>
+		<en>Please enter password</en>
+	</Language>
+	<Language>
+		<id>61</id>
+		<vn>Họ tên</vn>
+		<en>Fullname</en>
+	</Language>
+	<Language>
+		<id>62</id>
+		<vn>Phải nhập họ tên</vn>
+		<en>Please enter fullname</en>
+	</Language>
+	<Language>
+		<id>63</id>
+		<vn>Email</vn>
+		<en>Email</en>
+	</Language>
+	<Language>
+		<id>64</id>
+		<vn>Phải nhập email</vn>
+		<en>Please enter email</en>
+	</Language>
+	<Language>
+		<id>65</id>
+		<vn>Điện thoại</vn>
+		<en>Telephone</en>
+	</Language>
+	<Language>
+		<id>66</id>
+		<vn>Địa chỉ</vn>
+		<en>Address</en>
+	</Language>
+	<Language>
+		<id>67</id>
+		<vn>Chức vụ</vn>
+		<en>Position</en>
+	</Language>
+	<Language>
+		<id>68</id>
+		<vn>Quản trị hệ thống</vn>
+		<en>Administrator</en>
+	</Language>
+	<Language>
+		<id>69</id>
+		<vn>Chức năng</vn>
+		<en>User role</en>
+	</Language>
+	<Language>
+		<id>70</id>
+		<vn>Phải chọn ít nhất 1 chức năng quản trị</vn>
+		<en>Please select role</en>
+	</Language>
+	<Language>
+		<id>71</id>
+		<vn>Phải chọn ít nhất 1 chuyên ngành</vn>
+		<en>Please select group</en>
+	</Language>
+	<Language>
+		<id>72</id>
+		<vn>Tên truy cập này đã tồn tại, hãy chọn tên khác</vn>
+		<en>This Username already exist, Please select other Username</en>
+	</Language>
+	<Language>
+		<id>73</id>
+		<vn>Cho phép</vn>
+		<en>Enabled</en>
+	</Language>
+	<Language>
+		<id>74</id>
+		<vn>Chưa cho phép</vn>
+		<en>Disabled</en>
+	</Language>
+	<Language>
+		<id>75</id>
+		<vn>Đăng nhập hệ thống</vn>
+		<en>Administrator Login</en>
+	</Language>
+	<Language>
+		<id>76</id>
+		<vn>Đăng nhập</vn>
+		<en>Login</en>
+	</Language>
+	<Language>
+		<id>78</id>
+		<vn>Tên truy cập hoặc mật khẩu không đúng</vn>
+		<en>Username or Password incorect</en>
+	</Language>
+	<Language>
+		<id>79</id>
+		<vn>Tài khoản đang bị tạm khoá</vn>
+		<en>Your account have been locked</en>
+	</Language>
+	<Language>
+		<id>80</id>
+		<vn>Đã cập nhật thành công</vn>
+		<en>Update success full</en>
+	</Language>
+	<Language>
+		<id>81</id>
+		<vn>Phải nhập mật khẩu cũ</vn>
+		<en>Please enter old password</en>
+	</Language>
+	<Language>
+		<id>82</id>
+		<vn>Mật khẩu cũ</vn>
+		<en>Old password</en>
+	</Language>
+	<Language>
+		<id>83</id>
+		<vn>Mật khẩu mới</vn>
+		<en>New pasword</en>
+	</Language>
+	<Language>
+		<id>84</id>
+		<vn>Phải nhập mật khẩu mới</vn>
+		<en>Please enter new password</en>
+	</Language>
+	<Language>
+		<id>85</id>
+		<vn>Mật khẩu cũ không đúng, hãy nhập lại</vn>
+		<en>Old password incorect, please re enter</en>
+	</Language>
+	<Language>
+		<id>86</id>
+		<vn>Hai mật khẩu phải giống nhau</vn>
+		<en>Retype new password false.</en>
+	</Language>
+	<Language>
+		<id>87</id>
+		<vn>Nhập lại mật khẩu mới</vn>
+		<en>Retype new password</en>
+	</Language>
+	<Language>
+		<id>88</id>
+		<vn>Phải nhập lại mật khẩu mới</vn>
+	</Language>
+	<Language>
+		<id>89</id>
+		<vn>Đổi mật khẩu thành công</vn>
+		<en>Change password successful</en>
+	</Language>
+	<Language>
+		<id>90</id>
+		<vn>Cập nhật quyền thành viên</vn>
+		<en>Update Role</en>
+	</Language>
+	<Language>
+		<id>91</id>
+		<vn>Chuyên mục</vn>
+		<en>Groups</en>
+	</Language>
+	<Language>
+		<id>92</id>
+		<vn>Thêm mới chuyên mục tin tức</vn>
+		<en>Register news group</en>
+	</Language>
+	<Language>
+		<id>93</id>
+		<vn>Quản trị chuyên mục</vn>
+		<en>Groups manager</en>
+	</Language>
+	<Language>
+		<id>94</id>
+		<vn>Phải chọn ít nhất 1 nhóm</vn>
+		<en>Please select group</en>
+	</Language>
+	<Language>
+		<id>95</id>
+		<vn>Chuyên mục cha</vn>
+		<en>Parent group</en>
+	</Language>
+	<Language>
+		<id>96</id>
+		<vn>Trang chủ</vn>
+		<en>Home page</en>
+	</Language>
+	<Language>
+		<id>97</id>
+		<vn>Tra cứu</vn>
+		<en>Dictionary</en>
+	</Language>
+	<Language>
+		<id>98</id>
+		<vn>Diễn đàn</vn>
+		<en>Forum</en>
+	</Language>
+	<Language>
+		<id>99</id>
+		<vn>Dữ liệu cùng cấp</vn>
+		<en>Dữ liệu cùng cấp</en>
+	</Language>
+	<Language>
+		<id>100</id>
+		<vn>Dữ liệu kèm theo</vn>
+		<en>Dữ liệu kèm theo</en>
+	</Language>
+	<Language>
+		<id>101</id>
+		<vn>Sự kiện nổi bật</vn>
+		<en>Feature Event</en>
+	</Language>
+	<Language>
+		<id>102</id>
+		<vn>Sách mới</vn>
+		<en>New book</en>
+	</Language>
+	<Language>
+		<id>103</id>
+		<vn>Thông tin thêm</vn>
+		<en>More Info</en>
+	</Language>
+	<Language>
+		<id>104</id>
+		<vn>Mỗi ngày một mới</vn>
+		<en>Once day Once new</en>
+	</Language>
+	<Language>
+		<id>105</id>
+		<vn>Nổi bật</vn>
+		<en>Feature</en>
+	</Language>
+	<Language>
+		<id>106</id>
+		<vn>SEARCH</vn>
+		<en>SEARCH</en>
+	</Language>
+	<Language>
+		<id>107</id>
+		<vn>Các bài viết khác</vn>
+		<en>Other article</en>
+	</Language>
+	<Language>
+		<id>108</id>
+		<vn>Tra từ</vn>
+		<en>Dictionary</en>
+	</Language>
+	<Language>
+		<id>109</id>
+		<vn>Chào mừng</vn>
+		<en>Welcome</en>
+	</Language>
+	<Language>
+		<id>110</id>
+		<vn>Tìm chính xác</vn>
+		<en>Exactly</en>
+	</Language>
+	<Language>
+		<id>111</id>
+		<vn>Tìm theo chuyên ngành</vn>
+		<en>Group</en>
+	</Language>
+	<Language>
+		<id>112</id>
+		<vn>Tìm theo vần</vn>
+		<en>Charactor</en>
+	</Language>
+	<Language>
+		<id>113</id>
+		<vn>Chuyên ngành</vn>
+		<en>Group</en>
+	</Language>
+	<Language>
+		<id>114</id>
+		<vn>Tên từ</vn>
+		<en>Word name</en>
+	</Language>
+	<Language>
+		<id>115</id>
+		<vn>Phải nhập tên từ</vn>
+		<en>Please enter word name</en>
+	</Language>
+	<Language>
+		<id>116</id>
+		<vn>Giải nghĩa</vn>
+		<en>Content</en>
+	</Language>
+	<Language>
+		<id>117</id>
+		<vn>Phải nhập giải nghĩa</vn>
+		<en>Please enter content</en>
+	</Language>
+	<Language>
+		<id>118</id>
+		<vn>Sửa từ điển</vn>
+		<en>Edit dictionary</en>
+	</Language>
+	<Language>
+		<id>119</id>
+		<vn>Tìm thấy {0} từ.</vn>
+		<en>Result for {0} word.</en>
+	</Language>
+	<Language>
+		<id>120</id>
+		<vn>Tổng số người truy cập</vn>
+		<en>Visited</en>
+	</Language>
+	<Language>
+		<id>121</id>
+		<vn>Đang online</vn>
+		<en>Online</en>
+	</Language>
+	<Language>
+		<id>122</id>
+		<vn>Chọn</vn>
+		<en>Select</en>
+	</Language>
+	<Language>
+		<id>123</id>
+		<vn>Cấu hình</vn>
+		<en>Configuration</en>
+	</Language>
+	<Language>
+		<id>124</id>
+		<vn>Danh sách bài viết tự do</vn>
+		<en>Document Free</en>
+	</Language>
+	<Language>
+		<id>125</id>
+		<vn>Liên kết đến</vn>
+		<en>Link Url</en>
+	</Language>
+	<Language>
+		<id>126</id>
+		<vn>Tổ chức chuyên mục</vn>
+		<en>Group Organization</en>
+	</Language>
+	<Language>
+		<id>127</id>
+		<vn>Nổi bật trang chủ</vn>
+		<en>Home Feature</en>
+	</Language>
+	<Language>
+		<id>128</id>
+		<vn>Tin nổi bật</vn>
+		<en>News feature</en>
+	</Language>
+	<Language>
+		<id>129</id>
+		<vn>Quảng cáo</vn>
+		<en>Advert</en>
+	</Language>
+	<Language>
+		<id>130</id>
+		<vn>Thêm mới quảng cáo</vn>
+		<en>Add new Advert</en>
+	</Language>
+	<Language>
+		<id>131</id>
+		<vn>Quản trị quảng cáo</vn>
+		<en>Advert Manager</en>
+	</Language>
+	<Language>
+		<id>132</id>
+		<vn>Tổ chức quảng cáo phần tin tức</vn>
+		<en>News of Advert Organization</en>
+	</Language>
+	<Language>
+		<id>133</id>
+		<vn>Tên quảng cáo</vn>
+		<en>Advert name</en>
+	</Language>
+	<Language>
+		<id>134</id>
+		<vn>Phải nhập tên quảng cáo</vn>
+		<en>Please enter advert name</en>
+	</Language>
+	<Language>
+		<id>135</id>
+		<vn>Phải nhập liên kết đến</vn>
+		<en>Please enter link url</en>
+	</Language>
+	<Language>
+		<id>136</id>
+		<vn>Ảnh quảng cáo</vn>
+		<en>Advert Logo</en>
+	</Language>
+	<Language>
+		<id>137</id>
+		<vn>Sửa thông tin quảng cáo</vn>
+		<en>Edit Advert</en>
+	</Language>
+	<Language>
+		<id>138</id>
+		<vn>Ngày bắt đầu</vn>
+		<en>StartDate</en>
+	</Language>
+	<Language>
+		<id>139</id>
+		<vn>Ngày kết thúc</vn>
+		<en>EndDate</en>
+	</Language>
+	<Language>
+		<id>140</id>
+		<vn>Danh sách quảng cáo tự do</vn>
+		<en>Advert Free</en>
+	</Language>
+	<Language>
+		<id>141</id>
+		<vn>Khuyến cáo (185x130:pixels)</vn>
+		<en>Warning (185x130:pixels)</en>
+	</Language>
+	<Language>
+		<id>142</id>
+		<vn>Liên hệ</vn>
+		<en>Contact</en>
+	</Language>
+	<Language>
+		<id>143</id>
+		<vn>Gửi đi</vn>
+		<en>Send</en>
+	</Language>
+	<Language>
+		<id>144</id>
+		<vn>Cảm ơn bạn đã liên hệ với chúng tôi</vn>
+		<en>Thanks!</en>
+	</Language>
+	<Language>
+		<id>145</id>
+		<vn>Liên hệ</vn>
+		<en>Send Inquiry</en>
+	</Language>
+	<Language>
+		<id>146</id>
+		<vn>Số lần xem</vn>
+		<en>Visited Count</en>
+	</Language>
+	<Language>
+		<id>147</id>
+		<vn>Chi tiết</vn>
+		<en>Detail</en>
+	</Language>
+	<Language>
+		<id>148</id>
+		<vn>Thể loại</vn>
+		<en>Kind</en>
+	</Language>
+	<Language>
+		<id>149</id>
+		<vn>Tin bài</vn>
+		<en>Tin bài</en>
+	</Language>
+	<Language>
+		<id>150</id>
+		<vn>Hình ảnh</vn>
+		<en>Images</en>
+	</Language>
+	<Language>
+		<id>151</id>
+		<vn>Tên ảnh</vn>
+		<en>Image Name</en>
+	</Language>
+	<Language>
+		<id>152</id>
+		<vn>Quản trị ảnh</vn>
+		<en>Image Manager</en>
+	</Language>
+	<Language>
+		<id>153</id>
+		<vn>Thêm</vn>
+		<en>Add</en>
+	</Language>
+	<Language>
+		<id>154</id>
+		<vn>Bài viết mới hơn</vn>
+		<en>New Article</en>
+	</Language>
+	<Language>
+		<id>155</id>
+		<vn>Bài viết cũ hơn</vn>
+		<en>Old Article</en>
+	</Language>
+	<Language>
+		<id>156</id>
+		<vn>Ngày phát hành</vn>
+		<en>Publish Date</en>
+	</Language>
+	<Language>
+		<id>157</id>
+		<vn>Ảnh kèm theo</vn>
+		<en>Images</en>
+	</Language>
+	
+	<Language>
+		<id>158</id>
+		<vn>Tạo mới bài viết</vn>
+		<en>Create news and products</en>
+	</Language>
+	<Language>
+		<id>159</id>
+		<vn>Viết bài</vn>
+		<en>Write</en>
+	</Language>
+	<Language>
+		<id>160</id>
+		<vn>Danh sách bài viết</vn>
+		<en>List article</en>
+	</Language>
+	<Language>
+		<id>161</id>
+		<vn>Gửi</vn>
+		<en>Send</en>
+	</Language>
+	<Language>
+		<id>162</id>
+		<vn>Biên tập</vn>
+		<en>Editorial work</en>
+	</Language>
+	
+	<Language>
+		<id>163</id>
+		<vn>Danh sách bài biên tập</vn>
+		<en>List Editor</en>
+	</Language>
+	<Language>
+		<id>164</id>
+		<vn>Trả lại</vn>
+		<en>Return</en>
+	</Language>
+	<Language>
+		<id>165</id>
+		<vn>Sau khi gửi bài viết để biên tập,bạn không có quyền thay đổi bài viết.Muốn thay đổi liên hệ với ban biên tập.</vn>
+		<en>After You are to send your article,you are don't change it.You want change to it,You should contact to editorial staff.</en>
+	</Language>
+	<Language>
+		<id>166</id>
+		<vn>Xem Logfile</vn>
+		<en>View Logfile</en>
+	</Language>
+	<Language>
+		<id>167</id>
+		<vn>Ngày Tháng</vn>
+		<en>DateTime</en>
+	</Language>
+	<Language>
+		<id>168</id>
+		<vn>Người dùng</vn>
+		<en>Users</en>
+	</Language>
+	<Language>
+		<id>169</id>
+		<vn>Ghi Chú</vn>
+		<en>Notes</en>
+	</Language>
+	<Language>
+		<id>170</id>
+		<vn>Quản trị tổ chức</vn>
+		<en>Organization Manager</en>
+	</Language>
+	<Language>
+		<id>171</id>
+		<vn>Sửa ảnh cho sản phẩm</vn>
+		<en>Edit images of products</en>
+	</Language>
+	<Language>
+		<id>172</id>
+		<vn>NHẬT KÝ BÀI VIẾT</vn>
+		<en>ARTICLE OF DIARY</en>
+	</Language>	
+	<Language>
+		<id>173</id>
+		<vn>Gửi email bài viết</vn>
+		<en>Send Email</en>
+	</Language>
+	<Language>
+		<id>174</id>
+		<vn>In bài viết</vn>
+		<en>Print</en>
+	</Language>	
+	<Language>
+		<id>175</id>
+		<vn>Gửi phản hồi</vn>
+		<en>Feed back</en>
+	</Language>
+	<Language>
+		<id>176</id>
+		<vn>Tổ chức tin tiêu điểm</vn>
+		<en>Focus of manager</en>
+	</Language>
+	<Language>
+		<id>177</id>
+		<vn>Trang chủ</vn>
+		<en>Home</en>
+	</Language>
+	<Language>
+		<id>178</id>
+		<vn>Giới Thiệu</vn>
+		<en>Introduction</en>
+	</Language>
+	<Language>
+		<id>179</id>
+		<vn>Hướng Dẫn</vn>
+		<en>Help</en>
+	</Language>
+	<Language>
+		<id>180</id>
+		<vn>Liên Hệ</vn>
+		<en>Contact</en>
+	</Language>
+	<Language>
+		<id>181</id>
+		<vn>Liên kết đơn vị thành viên</vn>
+		<en>Companys Link </en>
+	</Language>
+	<Language>
+		<id>182</id>
+		<vn>Quản trị liên kết đơn vị thành viên</vn>
+		<en>Manager link companys</en>
+	</Language>
+	<Language>
+		<id>183</id>
+		<vn>Thêm mới liên kết đơn vị thành viên</vn>
+		<en>News create link companys</en>
+	</Language>
+	<Language>
+		<id>184</id>
+		<vn>Tên trang đơn vị thành viên</vn>
+		<en>Link companys name</en>
+	</Language>
+	<Language>
+		<id>185</id>
+		<vn>Phải nhập tên đơn vị thành viên</vn>
+		<en>Please enter link companys name</en>
+	</Language>
+	<Language>
+		<id>186</id>
+		<vn>Phải nhập địa chỉ website đơn vị thành viên</vn>
+		<en>Please enter address website</en>
+	</Language>	
+	<Language>
+		<id>187</id>
+		<vn>Tên website đơn vị thành viên</vn>
+		<en>Website companys name</en>
+	</Language>	
+	<Language>
+		<id>188</id>
+		<vn>Địa chỉ website đơn vị thành viên</vn>
+		<en>Website address companys name</en>
+	</Language>
+	<Language>
+		<id>189</id>
+		<vn>Số thứ tự</vn>
+		<en>Queue</en>
+	</Language>
+	<Language>
+		<id>190</id>
+		<vn>Sửa thông tin đơn vị thành viên</vn>
+		<en>Edit link companys name</en>
+	</Language>	
+
+		<Language>
+		<id>191</id>
+		<vn>Thành viên ...</vn>
+		<en>Members ...</en>
+	</Language>		
+	<Language>
+		<id>192</id>
+		<vn>Thêm mới loại ngoại tệ</vn>
+		<en>Foreign Currency News</en>
+	</Language>
+	<Language>
+		<id>193</id>
+		<vn>Mã ngoại tệ</vn>
+		<en>Foreign Currency Code</en>
+	</Language>	
+	<Language>
+		<id>194</id>
+		<vn>Tên ngoại tệ</vn>
+		<en>Foreign Currency Name</en>
+	</Language>	
+	<Language>
+		<id>195</id>
+		<vn>Mua vào</vn>
+		<en>InRate</en>
+	</Language>	
+	<Language>
+		<id>196</id>
+		<vn>Bán ra</vn>
+		<en>OutRate</en>
+	</Language>	
+	<Language>
+		<id>197</id>
+		<vn>Nhập vào thông tin bắt buộc !</vn>
+		<en>Please enter information !</en>
+	</Language>	
+	<Language>
+		<id>198</id>
+		<vn>Quản trị ngoại tệ</vn>
+		<en>Foreign currency manager</en>
+	</Language>	
+	<Language>
+		<id>199</id>
+		<vn>Quản trị - Admin</vn>
+		<en>Admin Manager</en>
+	</Language>
+	<Language>
+		<id>200</id>
+		<vn>Quên mật khẩu</vn>
+		<en>Password lost</en>
+	</Language>
+	<Language>
+		<id>201</id>
+		<vn>Tên người dùng</vn>
+		<en>Username</en>
+	</Language>
+		<Language>
+		<id>202</id>
+		<vn>Thư điện tử</vn>
+		<en>Email</en>
+	</Language>
+		<Language>
+		<id>203</id>
+		<vn>Quản trị số hàng</vn>
+		<en>Qeueu Manager</en>
+	</Language>
+		<Language>
+		<id>204</id>
+		<vn>Cập nhật</vn>
+		<en>Update</en>
+	</Language>
+	<Language>
+		<id>205</id>
+		<vn>Tìm thấy {0} bản ghi.</vn>
+		<en>Result for {0} record.</en>
+	</Language>
+	<Language>
+		<id>206</id>
+		<vn>Chuyển khoản</vn>
+		<en>TransferRate</en>
+	</Language>
+	<Language>
+		<id>207</id>
+		<vn>Tỉ giá ngoại tệ</vn>
+		<en>Currency Rate</en>
+	</Language>
+	<Language>
+		<id>208</id>
+		<vn>Mã</vn>
+		<en>Code</en>
+	</Language>
+	<Language>
+		<id>209</id>
+		<vn>Cập nhật tự động</vn>
+		<en>Automatic backup</en>
+	</Language>
+	<Language>
+		<id>210</id>
+		<vn>Quản trị thời tiết</vn>
+		<en>Weather manager</en>
+	</Language>
+	<Language>
+		<id>211</id>
+		<vn>Thành phố</vn>
+		<en>City</en>
+	</Language>
+	<Language>
+		<id>212</id>
+		<vn>Kiểu thời tiết</vn>
+		<en>Type</en>
+	</Language>
+	<Language>
+		<id>213</id>
+		<vn>Nhiệt độ</vn>
+		<en>Temp</en>
+	</Language>
+	<Language>
+		<id>214</id>
+		<vn>Dự báo thời tiết</vn>
+		<en>The Weather</en>
+	</Language>
+	
+	<Language>
+		<id>215</id>
+		<vn>Tổ chức tin nóng</vn>
+		<en>Hot News</en>
+	</Language>
+	
+	<Language>
+		<id>216</id>
+		<vn>Sau khi duyệt bài viết sẽ đưa lên trạng thái chờ đăng</vn>
+		<en>After You are to send your article.The article going to wait online status</en>
+	</Language>
+	<Language>
+		<id>217</id>
+		<vn>XEM CHI TIẾT THÔNG TIN</vn>
+		<en>VIEU DETAIL</en>
+	</Language>
+	<Language>
+		<id>218</id>
+		<vn>Gửi bài đăng ngay</vn>
+		<en>Post Online</en>
+	</Language>
+	<Language>
+		<id>219</id>
+		<vn>Đã có tên mã trong danh sách.</vn>
+		<en>List have a code name the same.</en>
+	</Language>
+	<Language>
+		<id>220</id>
+		<vn>Thành viên</vn>
+		<en>Members</en>
+	</Language>
+	<Language>
+		<id>221</id>
+		<vn>Thành viên đăng nhập</vn>
+		<en>Register Members</en>
+	</Language>
+	<Language>
+		<id>222</id>
+		<vn>Tên</vn>
+		<en>Username</en>
+	</Language>
+	<Language>
+		<id>223</id>
+		<vn>Mật khẩu</vn>
+		<en>Password</en>
+	</Language>
+	<Language>
+		<id>224</id>
+		<vn>Đăng nhập</vn>
+		<en>Register</en>
+	</Language>
+	<Language>
+		<id>225</id>
+		<vn>Đăng nhập sai !</vn>
+		<en>Register faile !</en>
+	</Language>
+	<Language>
+		<id>226</id>
+		<vn>Bạn không có quyền vào chuyên mục này. Hãy đăng nhập!</vn>
+		<en>You can't read it. you should regisiter!</en>
+	</Language>
+	<Language>
+		<id>227</id>
+		<vn>Thoát</vn>
+		<en>Exit</en>
+	</Language>
+	<Language>
+		<id>228</id>
+		<vn>Liên kết website</vn>
+		<en>Website Link</en>
+	</Language>
+	<Language>
+		<id>229</id>
+		<vn>Đang xem</vn>
+		<en>Online</en>
+	</Language>
+	<Language>
+		<id>230</id>
+		<vn>Kích thước ảnh hiện thị </vn>
+		<en>View Size Images </en>
+	</Language>
+	<Language>
+		<id>231</id>
+		<vn>Chiều rộng </vn>
+		<en>Width </en>
+	</Language>
+	<Language>
+		<id>232</id>
+		<vn>Chiều cao</vn>
+		<en>Height</en>
+	</Language>
+	
+	<Language>
+		<id>233</id>
+		<vn>Không có Thông Tin!</vn>
+		<en>No Information! </en>
+	</Language>
+	<Language>
+		<id>234</id>
+		<vn>Quản trị từ điển</vn>
+		<en>Dictionary Manager</en>
+	</Language>
+	<Language>
+		<id>235</id>
+		<vn>Thêm từ mới</vn>
+		<en>Add new Dictionary</en>
+	</Language>
+	<Language>
+		<id>236</id>
+		<vn>Quản trị chuyên nghành</vn>
+		<en>Group words manager</en>
+	</Language>
+	<Language>
+		<id>237</id>
+		<vn>Phải nhập tên chuyên nghành</vn>
+		<en>Please enter name</en>
+	</Language>
+		<Language>
+		<id>238</id>
+		<vn>Tên chuyên nghành </vn>
+		<en>Name</en>
+	</Language>
+	<Language>
+		<id>239</id>
+		<vn>Tìm thấy {0} chuyên nghành.</vn>
+		<en>Result for {0} groups.</en>
+	</Language>	
+	<Language>
+		<id>240</id>
+		<vn>Chọn chuyên mục cha sai! Chọn lại.</vn>
+		<en>Select to parent false!</en>
+	</Language>		
+	<Language>
+		<id>241</id>
+		<vn>Tìm kiếm</vn>
+		<en>Search</en>
+	</Language>	
+	<Language>
+		<id>242</id>
+		<vn>Liên kết tới</vn>
+		<en>Link to</en>
+	</Language>	
+	<Language>
+		<id>243</id>
+		<vn>Đăng bài lên ngay.</vn>
+		<en>Post online now. </en>
+	</Language>	
+	<Language>
+		<id>244</id>
+		<vn> Sơ đồ website.</vn>
+		<en>Site Map. </en>
+	</Language>	
+	<Language>
+		<id>245</id>
+		<vn>Tên công ty </vn>
+		<en>Company name</en>
+	</Language>	
+	
+	<Language>
+		<id>246</id>
+		<vn>Tên TAB </vn>
+		<en>TAB name</en>
+	</Language>	
+	
+	<Language>
+		<id>247</id>
+		<vn>Quản trị TAB_1 sản phẩm</vn>
+		<en>Products TAB_1 manager </en>
+	</Language>
+	<Language>
+		<id>248</id>
+		<vn>Tổ chức TAB_1 sản phẩm</vn>
+		<en>Products TAB_1 Organization </en>
+	</Language>	
+	<Language>
+		<id>249</id>
+		<vn>Tổ chức theo TAB </vn>
+		<en>TAB Organization</en>
+	</Language>	
+	<Language>
+		<id>250</id>
+		<vn>Tạo sản phẩm mới </vn>
+		<en>Create new products </en>
+	</Language>
+	<Language>
+		<id>251</id>
+		<vn>Danh sách sản phẩm </vn>
+		<en>List products </en>
+	</Language>
+	<Language>
+		<id>252</id>
+		<vn>Danh sách sản phẩm biên tập</vn>
+		<en>List editor products </en>
+	</Language>
+	<Language>
+		<id>253</id>
+		<vn>Danh sách sản phẩm chờ duyệt</vn>
+		<en>List check products </en>
+	</Language>
+	<Language>
+		<id>254</id>
+		<vn>Danh sách sản phẩm đã duyệt</vn>
+		<en>List checked products </en>
+	</Language>
+	<Language>
+		<id>255</id>
+		<vn>Tên sản phẩm</vn>
+		<en>Products name</en>
+	</Language>
+	<Language>
+		<id>256</id>
+		<vn>Mã sản phẩm</vn>
+		<en>Trade marks</en>
+	</Language>
+	<Language>
+		<id>257</id>
+		<vn>Kích cỡ </vn>
+		<en>Size</en>
+	</Language>
+	<Language>
+		<id>258</id>
+		<vn>Giá tiền</vn>
+		<en>Price</en>
+	</Language>
+	<Language>
+		<id>259</id>
+		<vn>Giới thiệu</vn>
+		<en>Introduction</en>
+	</Language>
+	<Language>
+		<id>260</id>
+		<vn>Thông số kĩ thuật</vn>
+		<en>Technical parameter</en>
+	</Language>
+	<Language>
+		<id>261</id>
+		<vn>Thông tin đăng kí </vn>
+		<en>Trustpass profile </en>
+	</Language>
+	<Language>
+		<id>262</id>
+		<vn>Nhập vào tên sản phẩm</vn>
+		<en>Please enter products name</en>
+	</Language>
+	<Language>
+		<id>263</id>
+		<vn>Nhập vào mã sản phẩm</vn>
+		<en>Please enter trade marks(code)</en>
+	</Language>
+	<Language>
+		<id>264</id>
+		<vn>Nhập vào kích cỡ </vn>
+		<en>Please enter size</en>
+	</Language>
+	<Language>
+		<id>265</id>
+		<vn>Sau khi duyệt sản phẩm sẽ đưa lên trạng thái chờ đăng</vn>
+		<en>After You are to send your products.Products going to wait online status</en>
+	</Language>
+	<Language>
+		<id>266</id>
+		<vn>Nhập vào mô tả</vn>
+		<en>Please enter description </en>
+	</Language>
+	<Language>
+		<id>267</id>
+		<vn>Nhập vào trợ giúp</vn>
+		<en>Please enter help </en>
+	</Language>
+	<Language>
+		<id>268</id>
+		<vn>Nhập vào thông tin đăng kí </vn>
+		<en>Please enter trustpass profile </en>
+	</Language>
+	<Language>
+		<id>269</id>
+		<vn>Gửi sản phẩm đăng ngay</vn>
+		<en>Post Products Online</en>
+	</Language>
+	<Language>
+		<id>270</id>
+		<vn>Sau khi gửi sảm phẩm để biên tập,bạn không có quyền thay đổi thông tin của sảm phẩm.Muốn thay đổi liên hệ với ban biên tập.</vn>
+		<en>After You are to send your products,you are don't change it.You want change to it,You should contact to editorial staff.</en>
+	</Language>
+	<Language>
+		<id>271</id>
+		<vn>NHẬT KÝ SẢN PHẨM</vn>
+		<en>PRODUCTS OF DIARY</en>
+	</Language>	
+	<Language>
+		<id>272</id>
+		<vn>Sửa thông tin sản phẩm</vn>
+		<en>Edit products information</en>
+	</Language>	
+	<Language>
+		<id>273</id>
+		<vn>Sau khi biên tập bài viết sẽ đưa lên trạng thái chờ duyệt</vn>
+		<en>After You are to send your article.The article going to wait check status</en>
+	</Language>
+	<Language>
+		<id>274</id>
+		<vn>Sau khi biên tập sản phẩm sẽ đưa lên trạng thái chờ duyệt</vn>
+		<en>After You are to send your products.The article going to wait check status</en>
+	</Language>
+	<Language>
+		<id>275</id>
+		<vn>Sau khi sản phẩm chờ duyệt sẽ đưa lên trạng thái chờ đăng</vn>
+		<en>After You are to send your products.The products going to wait online status</en>
+	</Language>
+	<Language>
+		<id>276</id>
+		<vn>Tìm thấy {0} sản phẩm.</vn>
+		<en>Result for {0} products.</en>
+	</Language>
+	<Language>
+		<id>277</id>
+		<vn>Tổ chức trung tâm của sản phẩm</vn>
+		<en>Products of Organization Center </en>
+	</Language>
+	<Language>
+		<id>278</id>
+		<vn>Quản trị TAB_2 sản phẩm</vn>
+		<en>Products TAB_2 of manager </en>
+	</Language>
+	<Language>
+		<id>279</id>
+		<vn>Tổ chức TAB_2 sản phẩm</vn>
+		<en>Products TAB_2 Organization</en>
+	</Language>
+	<Language>
+		<id>280</id>
+		<vn>Quản trị TAB </vn>
+		<en>TAB Manager</en>
+	</Language>
+	<Language>
+		<id>281</id>
+		<vn>Danh sách sản phẩm tự do</vn>
+		<en>Products Free</en>
+	</Language>
+	<Language>
+		<id>282</id>
+		<vn>Tổ chức Menu sản phẩm</vn>
+		<en>Products of Menu Organization</en>
+	</Language>
+	<Language>
+		<id>283</id>
+		<vn>Thêm mới chuyên mục sản phẩm</vn>
+		<en>Register products of group</en>
+	</Language>
+	<Language>
+		<id>284</id>
+		<vn>Quản trị chuyên mục sản phẩm</vn>
+		<en>Products of Groups manager</en>
+	</Language>
+	<Language>
+		<id>285</id>
+		<vn>Tổ chức sản phẩm theo chuyên mục</vn>
+		<en>Products of Groups Organization</en>
+	</Language>
+	<Language>
+		<id>286</id>
+		<vn>Tổ chức quảng cáo phần sản phẩm</vn>
+		<en>Products of Advert Organization</en>
+	</Language>
+	<Language>
+		<id>287</id>
+		<vn>Tổ chức theo chuyên mục</vn>
+		<en>Group Organization</en>
+	</Language>
+	<Language>
+		<id>288</id>
+		<vn>Giỏ hàng</vn>
+		<en>Add To Cart</en>
+	</Language>
+	<Language>
+		<id>289</id>
+		<vn>Sản phẩm trong giỏ hàng.</vn>
+		<en>Products in cart.</en>
+	</Language>	
+	<Language>
+		<id>290</id>
+		<vn>Số lượng</vn>
+		<en>Quantity</en>
+	</Language>
+	<Language>
+		<id>291</id>
+		<vn>Tổng tiền</vn>
+		<en>Total</en>
+	</Language>
+	<Language>
+		<id>292</id>
+		<vn>Hủy Bỏ</vn>
+		<en>Remove</en>
+	</Language>
+	<Language>
+		<id>293</id>
+		<vn>Chấp nhận đơn hàng</vn>
+		<en>To accept an Order</en>
+	</Language>
+	<Language>
+		<id>294</id>
+		<vn>Di động</vn>
+		<en>Mobile</en>
+	</Language>
+	<Language>
+		<id>295</id>
+		<vn>Cảm ơn khách hàng! Đọc email để kiểm tra lại thông tin đơn hàng. </vn>
+		<en>Thank you! You should be read your email. </en>
+	</Language>
+	<Language>
+		<id>296</id>
+		<vn>Thông tin đơn hàng</vn>
+		<en>Order Information </en>
+	</Language>
+		<Language>
+		<id>297</id>
+		<vn>Quản trị liên kết cơ sở dữ liệu</vn>
+		<en>Database Managers </en>
+	</Language>
+		<Language>
+		<id>298</id>
+		<vn>Dữ liệu sản phẩm từ thành viên</vn>
+		<en>Products from members</en>
+	</Language>
+	<Language>
+		<id>299</id>
+		<vn>Tạo liên kết cơ sở dữ liệu</vn>
+		<en>Create link database</en>
+	</Language>
+	<Language>
+		<id>300</id>
+		<vn>Tên thành viên</vn>
+		<en>Members name</en>
+	</Language>
+	<Language>
+		<id>301</id>
+		<vn>Tên cơ sở dữ liệu</vn>
+		<en>Database name</en>
+	</Language>
+	<Language>
+		<id>302</id>
+		<vn>Máy chủ</vn>
+		<en>Server</en>
+	</Language>
+	<Language>
+		<id>303</id>
+		<vn>Tên truy cập</vn>
+		<en>UsersID</en>
+	</Language>
+	<Language>
+		<id>304</id>
+		<vn>Mật khẩu</vn>
+		<en>Pasword</en>
+	</Language>
+	<Language>
+		<id>305</id>
+		<vn>Kết nối sai! Xem lại: </vn>
+		<en>Connection false ! To look back on: </en>
+	</Language>
+	<Language>
+		<id>306</id>
+		<vn>Sửa liên kết cơ sở dữ liệu</vn>
+		<en>Edit link database</en>
+	</Language>
+	<Language>
+		<id>307</id>
+		<vn>Chia sẻ</vn>
+		<en>Share</en>
+	</Language>
+	<Language>
+		<id>308</id>
+		<vn>Dữ liệu tin tức từ thành viên</vn>
+		<en>News from members</en>
+	</Language>
+	<Language>
+		<id>309</id>
+		<vn>Tìm kiếm sản phẩm của thành viên</vn>
+		<en>Search products of members</en>
+	</Language>
+	<Language>
+		<id>310</id>
+		<vn>Công Ty Thành Viên</vn>
+		<en>Members Company</en>
+	</Language>
+	<Language>
+		<id>311</id>
+		<vn>Bạn Phải Chọn Thành Viên !</vn>
+		<en>Select To Members Company !</en>
+	</Language>
+	<Language>
+		<id>312</id>
+		<vn>Quản trị WebSite</vn>
+		<en>Manager WebSite</en>
+	</Language>
+	<Language>
+		<id>313</id>
+		<vn>Tạo WebSite thành viên</vn>
+		<en>Create WebSite of Members</en>
+	</Language>
+	<Language>
+		<id>314</id>
+		<vn>Thông tin WebSite</vn>
+		<en>WebSite Information</en>
+	</Language>
+	<Language>
+		<id>315</id>
+		<vn>Tạo WebSite của thành viên mới thành công.</vn>
+		<en>Create news WebSite of members successful.</en>
+	</Language>
+	<Language>
+		<id>316</id>
+		<vn>Quản trị TAB sản phẩm trang chủ</vn>
+		<en>TAB of Home Manager</en>
+	</Language>
+	<Language>
+		<id>317</id>
+		<vn>Tổ chức TAB_2 sản phẩm trang chủ</vn>
+		<en>TAB_2 of Products Home  Organization</en>
+	</Language>
+	<Language>
+		<id>318</id>
+		<vn>Tổ chức link của TAB sản phẩm trang chủ</vn>
+		<en>Link TAB of Products Home Organization</en>
+	</Language>
+	<Language>
+		<id>319</id>
+		<vn>Quản trị link của TAB sản phẩm trang chủ</vn>
+		<en>Link TAB of Home Products Manager</en>
+	</Language>
+	<Language>
+		<id>320</id>
+		<vn>Thêm mới link của TAB sản phẩm trang chủ</vn>
+		<en>Add new Link TAB of Home Products Manager</en>
+	</Language>
+	<Language>
+		<id>321</id>
+		<vn>Tên Link</vn>
+		<en>Link Name</en>
+	</Language>	
+	<Language>
+		<id>322</id>
+		<vn>Link đến</vn>
+		<en>Link To</en>
+	</Language>	
+	<Language>
+		<id>323</id>
+		<vn>Tổ chức tin tức- sự kiện</vn>
+		<en>News-Event Organization home</en>
+	</Language>	
+	<Language>
+		<id>324</id>
+		<vn>Tài Liệu Kỹ Thuật</vn>
+		<en>Technical Document</en>
+	</Language>		
+	<Language>
+		<id>325</id>
+		<vn>Chi tiết</vn>
+		<en>More</en>
+	</Language>		
+	<Language>
+		<id>326</id>
+		<vn>Tổ chức đối tác</vn>
+		<en>Partners Ogranization</en>
+	</Language>	
+	<Language>
+		<id>327</id>
+		<vn>Đối tác chính</vn>
+		<en>Partners</en>
+	</Language>			
+	<Language>
+		<id>328</id>
+		<vn>Danh sách đối tác tự do</vn>
+		<en>List Partner Free</en>
+	</Language>
+	<Language>
+		<id>329</id>
+		<vn>Tin mới nhất</vn>
+		<en>Latest News</en>
+	</Language>
+	<Language>
+		<id>330</id>
+		<vn>Sản phẩm nổi bật</vn>
+		<en>Features Products</en>
+	</Language>
+	<Language>
+		<id>331</id>
+		<vn>Tổ chức tin tức nổi bật</vn>
+		<en>News Ogranization</en>
+	</Language>
+	<Language>
+		<id>332</id>
+		<vn>Danh mục sản phẩm</vn>
+		<en>Products List</en>
+	</Language>
+	<Language>
+		<id>333</id>
+		<vn>Chủng loại sản phẩm</vn>
+		<en>Products Kind</en>
+	</Language>
+	<Language>
+		<id>334</id>
+		<vn>Chủng loại mới</vn>
+		<en>New Kind</en>
+	</Language>
+	<Language>
+		<id>335</id>
+		<vn>Tổ chức chủng loại mới</vn>
+		<en>New Kind Organization</en>
+	</Language>
+	<Language>
+		<id>336</id>
+		<vn>Xem tiếp</vn>
+		<en>More</en>
+	</Language>
+	<Language>
+		<id>337</id>
+		<vn>Không có sản phẩm !</vn>
+		<en>No Products !</en>
+	</Language>
+	<Language>
+		<id>338</id>
+		<vn>Hỗ trợ trực tuyến</vn>
+		<en>Online Support</en>
+	</Language>
+	<Language>
+		<id>339</id>
+		<vn>Hỗ trợ kinh doanh</vn>
+		<en>Business Support</en>
+	</Language>
+	<Language>
+		<id>340</id>
+		<vn>Hỗ trợ dự án</vn>
+		<en>Projects Support</en>
+	</Language>	
+	<Language>
+		<id>341</id>
+		<vn>Hỗ trợ kĩ thuật</vn>
+		<en>Technical Support</en>
+	</Language>
+  <Language>
+    <id>342</id>
+    <vn>Quản lý ảnh banner web</vn>
+    <en>Banner manager</en>
+  </Language>
+  <Language>
+    <id>343</id>
+    <vn>Quản lý footer</vn>
+    <en>footer manager</en>
+  </Language>
+  <Language>
+    <id>344</id>
+    <vn>THÔNG TIN TẠO MỚI</vn>
+    <en>Information Create Novum </en>
+  </Language>
+  <Language>
+    <id>345</id>
+    <vn>DANH SÁCH ĐÃ CÓ </vn>
+    <en>lIST</en>
+  </Language>
+  <Language>
+    <id>346</id>
+    <vn>Lĩnh vực thi</vn>
+    <en>Test field </en>
+  </Language>
+  <Language>
+    <id>347</id>
+    <vn>Thêm mới lĩnh vực thi</vn>
+    <en>Creat field test</en>
+  </Language>
+  <Language>
+    <id>348</id>
+    <vn>Quản lý lĩnh vực thi</vn>
+    <en>Manager field test</en>
+  </Language>
+  <Language>
+    <id>349</id>
+    <vn>Câu hỏi</vn>
+    <en>The questions</en>
+  </Language>
+  <Language>
+    <id>350</id>
+    <vn>Thêm mới câu hỏi</vn>
+    <en>Creat questions</en>
+  </Language>
+  <Language>
+    <id>351</id>
+    <vn>Quản lý câu hỏi</vn>
+    <en>Manager questions</en>
+  </Language>
+  <Language>
+    <id>352</id>
+    <vn>Đề thi</vn>
+    <en> The test</en>
+  </Language>
+  <Language>
+    <id>353</id>
+    <vn>Tạo đề thi</vn>
+    <en>Creat The test</en>
+  </Language>
+  <Language>
+    <id>354</id>
+    <vn>Quản lý đề thi</vn>
+    <en>Manager The test</en>
+  </Language>
+  <Language>
+    <id>355</id>
+    <vn>Cập nhật đề thi</vn>
+    <en>Update questions for the test</en>
+  </Language>
+  
+  <Language>
+    <id>356</id>
+    <vn>File ảnh :</vn>
+    <en>Picture file :</en>
+  </Language>
+  <Language>
+    <id>357</id>
+    <vn>Mô tả :</vn>
+    <en>Descriptions :</en>
+  </Language>
+  <Language>
+    <id>358</id>
+    <vn>Ảnh :</vn>
+    <en>Picture :</en>
+  </Language>
+  <Language>
+    <id>359</id>
+    <vn>Danh sách các anh trong album</vn>
+    <en>List picture in album</en>
+  </Language>
+  <Language>
+    <id>360</id>
+    <vn>Thông tin thêm mới</vn>
+    <en>Informations</en>
+  </Language>
+  <Language>
+    <id>361</id>
+    <vn>Tạo album cho web</vn>
+    <en>Creat Album</en>
+  </Language>
+  <Language>
+    <id>362</id>
+    <vn>Danh sách các album</vn>
+    <en>List Album</en>
+  </Language>
+  <Language>
+    <id>363</id>
+    <vn>Tên Album</vn>
+    <en>Title Album</en>
+  </Language>
+  <Language>
+    <id>364</id>
+    <vn>Ảnh minh họa</vn>
+    <en>Picture</en>
+  </Language>
+  <Language>
+    <id>365</id>
+    <vn>Thêm mới chuyên mục</vn>
+    <en>Add new groups</en>
+  </Language>
+  <Language>
+    <id>366</id>
+    <vn>Quản lý chuyên mục</vn>
+    <en>Managers groups</en>
+  </Language>
+  <Language>
+    <id>367</id>
+    <vn>Thêm mới video</vn>
+    <en>Creat video</en>
+  </Language>
+  <Language>
+    <id>368</id>
+    <vn>Đăng ngay</vn>
+    <en>Post Online</en>
+  </Language>
+  <Language>
+    <id>369</id>
+    <vn>Danh sách file video</vn>
+    <en>List video file</en>
+  </Language>
+  <Language>
+    <id>370</id>
+    <vn>Video</vn>
+    <en>Video</en>
+  </Language>
+  <Language>
+    <id>371</id>
+    <vn>âm thanh</vn>
+    <en>Sound</en>
+  </Language>
+  <Language>
+    <id>378</id>
+    <vn>Mã số xác nhận</vn>
+    <en>Code validation</en>
+  </Language>
+  <Language>
+    <id>379</id>
+    <vn>Tin tức</vn>
+    <en>New</en>
+  </Language>
+  <Language>
+    <id>380</id>
+    <vn>DANH MỤC SẢN PHẨM</vn>
+    <en>Products</en>
+  </Language>
+  <Language>
+    <id>381</id>
+    <vn>Ảnh minh họa chính</vn>
+    <en>Products</en>
+  </Language>
+  <Language>
+    <id>382</id>
+    <vn>Chọn các ảnh khác</vn>
+    <en>Other Images</en>
+  </Language>
+  <Language>
+    <id>383</id>
+    <vn>Tổ chức tin nổi bật trang chủ tin tức</vn>
+    <en>Organization Home News</en>
+  </Language>
+  <Language>
+    <id>384</id>
+    <vn>Tổ chức tin mới nhất trang chủ tin tức</vn>
+    <en>Latest News Organization Home</en>
+  </Language>
+  <Language>
+    <id>385</id>
+    <vn>Tổ chức thông báo từ 3CSHOP.VN</vn>
+    <en>Organizations Notice From 3CSHOP.VN</en>
+  </Language>
+  <Language>
+    <id>386</id>
+    <vn>Tổ chức link footer sản phẩm</vn>
+    <en>Organization Footer Link Products</en>
+  </Language>
+  <Language>
+    <id>387</id>
+    <vn>Thêm mới link sản phẩm tự do</vn>
+    <en>Add new link products</en>
+  </Language>
+  <Language>
+    <id>388</id>
+    <vn> Nhập tên sản phẩm</vn>
+    <en>Product Name</en>
+  </Language>
+  <Language>
+    <id>389</id>
+    <vn>Tin Tức</vn>
+    <en>News</en>
+  </Language>
+  <Language>
+    <id>390</id>
+    <vn>Quản lý từ khóa tìm kiếm</vn>
+    <en>Manager Key</en>
+  </Language>
+  <Language>
+    <id>400</id>
+    <vn>Thanh toán</vn>
+    <en>Payment</en>
+  </Language>
+  <Language>
+    <id>401</id>
+    <vn>Tiếp tục mua</vn>
+    <en>Continue Shopping</en>
+  </Language>
+  <Language>
+    <id>402</id>
+    <vn>Tính lại</vn>
+    <en>Recalculated</en>
+  </Language>
+  <Language>
+    <id>403</id>
+    <vn>Làm lại</vn>
+    <en>Reset</en>
+  </Language>
+  <Language>
+    <id>404</id>
+    <vn>Mã số xác nhận nhập sai</vn>
+    <en>Reset</en>
+  </Language>
+  <Language>
+    <id>405</id>
+    <vn>Nhập mã số xác nhận</vn>
+    <en>Reset</en>
+  </Language>
+  <Language>
+    <id>406</id>
+    <vn>Tổ chức quản trị video</vn>
+    <en>Organization Manager Video</en>
+  </Language>
+  <Language>
+    <id>407</id>
+    <vn>Thêm mới</vn>
+    <en>Add News</en>
+  </Language>
+  <Language>
+    <id>408</id>
+    <vn>Cập nhật</vn>
+    <en>Update</en>
+  </Language>
+  <Language>
+    <id>409</id>
+    <vn>Tên Video</vn>
+    <en>Video name</en>
+  </Language>
+  <Language>
+    <id>410</id>
+    <vn>Url(đường dẫn video):</vn>
+    <en>Url video</en>
+  </Language>
+  <Language>
+    <id>411</id>
+    <vn>Thêm mới video</vn>
+    <en>Add video</en>
+  </Language>
+  <Language>
+    <id>412</id>
+    <vn>Mô tả</vn>
+    <en>Descriptions</en>
+  </Language>
+  <Language>
+    <id>413</id>
+    <vn>Quản trị Video</vn>
+    <en>Manager Video</en>
+  </Language>
+  <Language>
+    <id>414</id>
+    <vn>Tổ chức tin tin cho trang chủ</vn>
+    <en>News Organization</en>
+  </Language>
+  <Language>
+    <id>415</id>
+    <vn>Tin tức/Video</vn>
+    <en>News/Video</en>
+  </Language>
+  <Language>
+    <id>416</id>
+    <vn>Tin tức</vn>
+    <en>News</en>
+  </Language>
+  <Language>
+    <id>417</id>
+    <vn>Video</vn>
+    <en>Video</en>
+  </Language>
+  <Language>
+    <id>418</id>
+    <vn>Thêm mới video</vn>
+    <en>Add Video</en>
+  </Language>
+  <Language>
+    <id>419</id>
+    <vn>Tổ chức thư viện ảnh</vn>
+    <en>Organization SlideShow</en>
+  </Language>
+  <Language>
+    <id>420</id>
+    <vn>Tên ảnh</vn>
+    <en></en>
+  </Language>
+  <Language>
+    <id>421</id>
+    <vn>đường dẫn</vn>
+    <en></en>
+  </Language>
+  <Language>
+    <id>422</id>
+    <vn>Thông tin liên hệ</vn>
+    <en>Contact info</en>
+  </Language>
+  <Language>
+    <id>423</id>
+    <vn>Thêm mới hội viên</vn>
+    <en>New member</en>
+  </Language>
+<Language>
+    <id>424</id>
+    <vn>Ngành nghề kinh doanh</vn>
+    <en>Business</en>
+  </Language>
+  <Language>
+    <id>425</id>
+    <vn>Quản trị hội viên</vn>
+    <en>Member manager</en>
+  </Language>
+  <Language>
+    <id>426</id>
+    <vn>Tên hội viên</vn>
+    <en>Name member</en>
+  </Language>
+<Language>
+    <id>427</id>
+    <vn>Thêm hội viên</vn>
+    <en>add member</en>
+  </Language>
+<Language>
+    <id>428</id>
+    <vn>Tìm thấy {0} hội viên.</vn>
+    <en>Result for {0} member.</en>
+  </Language>
+</DataSet>

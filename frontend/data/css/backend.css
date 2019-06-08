@@ -1,0 +1,524 @@
+BODY{
+scrollbar-arrow-color: #F4F6E8;
+scrollbar-3dlight-color: #F4F6E8;
+scrollbar-highlight-color: #8CA5D2;
+scrollbar-face-color: #8CA5D2;
+scrollbar-shadow-color: #8CA5D2;
+scrollbar-darkshadow-color: #F4F6E8;
+scrollbar-track-color: #F4F6E8;
+}
+
+TR.on {
+	display: on;
+}
+TR.off {
+	display: none;
+}
+.Actile_CssContent{
+		font-family: Verdana, Arial; 
+		font-size: 11px;
+		color: #000000;
+	}
+.title {
+	color : #EF6D00;
+	margin-top : 1px;
+	padding-bottom : 1px;
+	margin-bottom : 1px;
+	
+	margin-right : 10px;
+	font-size : 13px;
+	font-family : Tahoma,Verdana,Arial;
+	font-weight: bold;
+}
+.item{
+	background-color:#FFFFFF ;
+
+}
+.alter{
+	background-color: #e8edf6 ;
+}
+
+INPUT 
+{
+	BORDER:#7F9DB9 1px solid;	
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+INPUT.BUTTON
+{
+	COLOR:#333366; FONT: bold 10px verdana, arial, sans-serif;
+	border-left-color:#799FDF;
+	border-top-color:#799FDF;
+	border-right-color:#457BD2;
+	border-bottom-color:#457BD2;
+	background-color:#ACC4EB;
+}
+CHECKBOX
+{
+	COLOR:#333366; FONT: bold 10px verdana, arial, sans-serif;
+	border-left-color:#799FDF;
+	border-top-color:#799FDF;
+	border-right-color:#457BD2;
+	border-bottom-color:#457BD2;
+	background-color:#ACC4EB;
+}
+SELECT 
+{	
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif	
+}
+
+TABLE {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TABLE.Note
+{	
+	overflow :hidden;
+	border:#CDCDC0 1px solid;
+	background:#F7F7F7;
+	COLOR:#666666; FONT: bold 12px verdana, arial, sans-serif;
+}
+
+TABLE.Result
+{
+	overflow :hidden;
+	border:#CDCDC0 1px solid;
+	background:#F7F7F7;
+	COLOR:#009900; FONT: bold 12px verdana, arial, sans-serif;
+}
+
+TD.Result
+{
+	overflow :hidden;	
+	background:#CDCDC0;
+	COLOR:#666666; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+A.SelectedPageIndex:link,A.SelectedPageIndex:hover,A.SelectedPageIndex:active,A.SelectedPageIndex:visited
+{
+	COLOR:#FF9900; FONT: bold 11px verdana, arial, sans-serif;	text-decoration : none;	
+}
+
+A.PageIndex:link,A.PageIndex:hover,A.PageIndex:active,A.PageIndex:visited
+{
+	COLOR:#009900; FONT: bold 11px verdana, arial, sans-serif;	text-decoration : none;	
+}
+
+A.Enable:link,A.Enable:hover,A.Enable:active,A.Enable:visited
+{
+	COLOR:#FF0000; FONT: bold 12px verdana, arial, sans-serif;	text-decoration : none;	
+}
+
+A.DomainRegister:link, A.DomainRegister:visited ,  A.DomainRegister:hover
+{
+	font: 10px verdana, arial, sans-serif;
+	color: #cc3366;
+	text-decoration:underline;
+}
+
+A:link,A:active,A:visited
+{
+	COLOR:#333366; FONT: 11px arial, verdana, sans-serif;	text-decoration :none;	
+}
+A:hover
+{
+	COLOR:#668CB2; FONT: 11px arial, verdana, sans-serif;	text-decoration :none;	
+}
+
+TABLE.Header
+{
+	COLOR:#FFFFFF; FONT: 11px verdana, arial, sans-serif;	text-decoration :none;	
+	background-color:#B4ACEB;
+}
+
+TABLE.Header1
+{
+	COLOR:#FFFFFF; FONT: 11px verdana, arial, sans-serif;	text-decoration :none;	
+	background-color:#D29D45;
+}
+
+TABLE.Footer
+{
+	COLOR:#FFFFFF; FONT: 11px verdana, arial, sans-serif;	text-decoration :none;	
+	background-color:#0039A0;
+}
+
+TABLE.MenuLeft
+{		
+	COLOR:#333333; FONT:11px verdana, arial, sans-serif;
+	background-color : #E8EDF6;
+}
+
+TR.MenuLeft_Header
+{		
+	background-color : #2b7cc6;
+	COLOR:#FFFFFF; FONT:bold 10px verdana, arial, sans-serif;
+}
+
+TR.MenuLeft_Items,TD.MenuLeft_Items
+{	
+	background:#E8EDF6;
+}
+
+TABLE.MenuLeft2
+{	
+	COLOR:#333333; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TR.MenuLeft2_Header
+{
+	background:#336699;
+	COLOR:#FFFFFF; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TR.MenuLeft2_Items,TD.MenuLeft2_Items
+{
+	background:#ffffff;
+	COLOR:#333366;
+}
+
+TABLE.Frame,TR.Frame,TD.Frame
+{
+	border : #336699 1px solid;
+	COLOR:#333366; FONT: 11px verdana, arial, sans-serif;
+	background-color:#79A6D2;
+}
+
+TABLE.Listing
+{
+	border : #00A067 1px solid;
+	COLOR:#333366; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TR.Listing_Item
+{
+	background:#FFFFFF;
+}
+
+TR.Listing_Header
+{
+	background:#3F7CDA;
+	COLOR:#FFFFFF; FONT: bold 10px verdana, arial, sans-serif;
+}
+	
+TR.Listing_Footer
+{
+	background:#ACC4EB;
+	COLOR:#FFFFFF; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TD.Listing_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.Preview
+{
+	border : #3F7CDA 1px solid;
+	COLOR:#333366; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TR.Preview_Item
+{
+	background:#FFFFFF;
+}
+
+TR.Preview_Header
+{
+	background:#3F7CDA;
+	COLOR:#FFFFFF; FONT: bold 11px verdana, arial, sans-serif;
+}
+	
+TR.Preview_Footer
+{
+	background:#ACC4EB;
+	COLOR:#FFFFFF; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TD.Preview_Item
+{
+	background:#FFFFFF;
+}
+TD.RequireField
+{
+	background:#FFFFFF;
+	COLOR:#ff0000; FONT: 10px verdana, arial, sans-serif;
+}
+
+TABLE.Form
+{
+	border : #8479DF 1px solid;
+	COLOR:#333366; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TR.Form_Item
+{
+	background:#FBEDBB;
+}
+
+TR.Form_Header
+{
+	
+	COLOR:#FFFFFF; FONT: bold 11px verdana, arial, sans-serif;
+}
+
+TD.Form_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.DeleteConfirm
+{
+	border : #FFA4D3 1px solid;
+	COLOR:#FF0000; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TR.DeleteConfirm_Item
+{
+	background:#F2FFE4;
+}
+
+TR.DeleteConfirm_Header
+{
+	background:#FFA4D3;
+	COLOR:#FFFFFF; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TD.DeleteConfirm_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.RegisterForm
+{
+	border:#94AAD6 1px solid;
+	COLOR: #000000; FONT: 11px arial, verdana, sans-serif;
+	background-color:#F7F7F7;
+}
+
+TR.RegisterForm_Header
+{
+	background-color:#ACC4EB;
+	COLOR: #333333; FONT:bold 11px arial, verdana, sans-serif;
+}
+
+TR.RegisterForm_RequiredItem
+{
+	background:#FFFFFF;
+	COLOR:#336699; FONT: 11px verdana, arial, sans-serif;
+}
+
+TD.RegisterForm_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.RegisterForm2
+{
+	border : #336666 1px solid;
+	COLOR:#333366; FONT: 11px verdana, arial, sans-serif;
+}
+
+TR.RegisterForm2_Items
+{
+	background:#FFFFFF;
+	COLOR:#333366; FONT: 11px verdana, arial, sans-serif;
+}
+
+TR.RegisterForm2_Header
+{
+	background:#336666;
+	COLOR:#FFFFFF; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TR.RegisterForm2_RequiredItems
+{
+	background:#FFFFFF;
+	COLOR:#333366; FONT:bold 10px verdana, arial, sans-serif;
+}
+
+TD.RegisterForm2_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.Preview2
+{
+	border : #74A0E4 1px solid;
+	COLOR:#333366; FONT: 11px verdana, arial, sans-serif;
+}
+
+TR.Preview2_Items
+{
+	background:#FFFFFF;
+	COLOR:#000000; FONT: 11px verdana, arial, sans-serif;
+}
+
+TR.Preview2_Header
+{
+	background:#799FDF;
+	COLOR:#FFFFFF; FONT: bold 10px verdana, arial, sans-serif;
+}
+
+TD.Preview2_Item
+{
+	background:#FFFFFF;
+}
+
+TABLE.AdvanceSearch
+{	
+	background-color:#C6E1C6;
+	COLOR:#336666; FONT: 11px verdana, arial, sans-serif;
+}
+
+TABLE.AdvanceSearch2
+{	
+	background-color:#C6E1D4;
+	COLOR:#336666; FONT: 11px verdana, arial, sans-serif;
+}
+
+TABLE.Warning
+{
+	border : #74A0E4 1px solid;
+	background-color:#C6E1D4;
+	COLOR:#336699; FONT:11px verdana, arial, sans-serif;
+}
+
+TR.TopMostArticle_Header
+{
+	COLOR:#FF0000;
+	FONT:16px verdana, arial, sans-serif;
+}
+
+TABLE.TopArticle
+{
+	border : #74A0E4 1px solid;
+	background-color:#C6E1D4;
+	COLOR:#336699;FONT:11px verdana, arial, sans-serif;
+}
+
+TR.TopArticle_Header
+{
+	COLOR:#336699;
+	FONT:11px verdana, arial, sans-serif;
+}
+
+TABLE.Frame
+{
+	border : #74A0E4 1px solid;
+	background-color:#E8EDF6;
+	COLOR:#336699;FONT:11px verdana, arial, sans-serif;
+}
+
+TR.Frame_Header
+{
+	background-color:#ACC4EB;
+	COLOR:#336699;
+	FONT:11px verdana, arial, sans-serif;
+}
+
+A.Subject:link,A.Subject:active,A.Subject:visited
+{
+	COLOR:#FA5606;
+	FONT:bold 12px arial , verdana, sans-serif;text-decoration:none;
+}
+
+A.Subject:hover
+{
+	COLOR:#FA5606;
+	FONT:bold 12px arial , verdana, sans-serif;text-decoration:underline;
+}
+
+A.SubSubject:link,A.SubSubject:active,A.SubSubject:visited
+{
+	COLOR:#FA5606;
+	FONT:bold 12px arial, verdana ,sans-serif;text-decoration:none;
+}
+
+A.SubSubject:hover
+{
+	COLOR:#FA5606;
+	FONT:bold 12px arial, verdana ,sans-serif;text-decoration:underline;
+}
+
+TR.Subject , TD.Subject
+{
+	COLOR:#FA5606;
+	FONT:20px arial, verdana , sans-serif;
+}
+
+TABLE.Login
+{
+	border : #0066D7 1px solid;
+	background-color:#E8EDF6;
+	COLOR:#0066D7;FONT:11px verdana, arial, sans-serif;
+}
+
+TR.Login_Header
+{
+	background-color:#0066D7;
+	COLOR:#FFFFFF;
+	FONT:bold 11px verdana, arial, sans-serif;
+}
+
+TR.RelativeArticle_Header
+{
+	background:#FFFFFF;
+	COLOR:#000000; FONT:bold 11px verdana, arial, sans-serif;
+}
+A.Link_welcome_small {
+	FONT:11px Arial, Helvetica, sans-serif; COLOR: #000000; TEXT-DECORATION: none
+}
+A.Link_welcome_small:link {
+	FONT:11px Arial, Helvetica, sans-serif; COLOR: #000000; TEXT-DECORATION: none
+}
+A.Link_welcome_small:hover {
+	FONT:11px Arial, Helvetica, sans-serif; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.Link_welcome_small1 {
+	FONT:bold  11px Arial, Helvetica, sans-serif; COLOR: #016356; TEXT-DECORATION: none
+}
+A.Link_welcome_small1:link,A.Link_welcome_small1:visited,A.Link_welcome_small1:active {
+	FONT:bold  11px Arial, Helvetica, sans-serif; COLOR: #016356; TEXT-DECORATION: none
+}
+A.Link_welcome_small1:hover {
+	FONT:bold  11px Arial, Helvetica, sans-serif; COLOR: #71C4B9; TEXT-DECORATION: none
+}
+.header4 {
+	FONT: 18px; COLOR: #1D9502; FONT-STYLE: normal; FONT-FAMILY: Verdana
+}
+.header3 {
+	PADDING-LEFT: 4px; FONT: 12px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: #F4AE05; TEXT-ALIGN: justify
+}
+.innerTabBg {
+	BACKGROUND-COLOR: #ffffff
+}
+.txtbox {
+	BORDER-RIGHT: #6e8dc5 1px solid; BORDER-TOP: #6e8dc5 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #6e8dc5 1px solid; BORDER-BOTTOM: #6e8dc5 1px solid; FONT-FAMILY: Verdana;BACKGROUND-COLOR: #ffffff
+}
+.butn {
+	BORDER-RIGHT: #a1a1a1 1px solid; BORDER-TOP: #a1a1a1 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #a1a1a1 1px solid; CURSOR: hand; COLOR: #252525; BORDER-BOTTOM: #a1a1a1 1px solid; BACKGROUND-COLOR: #4c4631
+}
+.Line {
+	BACKGROUND-COLOR: #e1e1e2
+}
+.Title_danhsach{
+font:bold 10px,verdana, Helvetica, sans-serif;color:#207603;text-decoration:none;
+}
+.curr_page
+{
+	font:bold 11px,verdana, Helvetica, sans-serif;color:Red;text-decoration:none;
+	}
+.Grid_header
+{
+	height:30px;
+	text-align:center;
+	color:Blue;
+	background-color:Fuchsia;
+}
+.Itemfortr 
+{
+	border-bottom-style:solid;
+	border-bottom-color:Red;
+	border-bottom-width:1px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Menu>
+		<id>1</id>
+		<title>Menu Trái(ngang) - Menu Left</title>
+	</Menu>
+	<Menu>
+		<id>2</id>
+		<title>Menu Trái(dọc) - Menu Left</title>
+	</Menu>	
+</DataSet>

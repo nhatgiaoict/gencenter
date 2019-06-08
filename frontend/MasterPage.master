@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="~/control/footer.ascx" TagName="footer1" TagPrefix="uc1" %>
+<%@ Register Src="~/control/style.ascx" TagName="style" TagPrefix="uc1" %>
+<uc1:style ID="style1" runat="server" />
+<body>
+    <div class="page text-center">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <uc1:footer1 ID="ft1" runat="server" />
+    </div>
+</body>
+</html>
+

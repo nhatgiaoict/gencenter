@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+	<Partner>
+		<id>1</id>
+		<title>Đối tác - Partner</title>
+	</Partner>
+	<Partner>
+		<id>2</id>
+		<title>Đối tác trang chủ - Partner of Home</title>
+	</Partner>	
+</DataSet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+  <Index>
+    <id>0</id>
+    <vn>Giảm dần</vn>
+    <en>Desc</en>
+  </Index>
+  <Index>
+    <id>1</id>
+    <vn>Tăng dần</vn>
+    <en>Ascending</en>
+  </Index>
+</DataSet>

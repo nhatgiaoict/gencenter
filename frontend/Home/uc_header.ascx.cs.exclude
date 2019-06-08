@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using System.Text;
+
+public partial class Home_uc_header : System.Web.UI.UserControl
+{
+    private StringBuilder sb = new StringBuilder();
+    private Menus menu = new Menus(1);
+    public string IDActive = "11";
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            string sKetQua = "";
+            if (clsCache.Get("CacheDeQuy1" + Globals.CurrentLang) != null)
+            {
+                sKetQua = (string)clsCache.Get("CacheDeQuy1" + Globals.CurrentLang);
+            }
+            else
+            {
+                DataTable dt = menu.GetMenu();
+                sKetQua = BuidMenu(dt);
+                clsCache.Max("CacheDeQuy1" + Globals.CurrentLang, (object)sKetQua);
+            }
+            ltlMenu.Text = sKetQua;
+        }
+    }
+
+    private string BuidMenu(DataTable dt)
+    {
+        if (dt != null)
+        {
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                if (Convert.ToInt32(dt.Rows[i]["nextchild"].ToString()) > 0)
+                {
+                    sb.Append("<li><a href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["plink"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["ptitle"].ToString() + "</a>");
+                    BuilMenuSub(menu.GetChildMenu(dt.Rows[i]["pid"].ToString().Trim()));
+                }
+                else
+                {
+                    sb.Append("<li><a  href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["plink"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["ptitle"].ToString() + "</a>");
+                }
+                sb.Append("</li>");
+            }
+        }
+        return sb.ToString();
+    }
+
+    private string BuilMenuSub(DataTable dt)
+    {
+        if (dt != null)
+        {
+            sb.Append("<ul><div class=\"boder-mn\">");
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                if (Convert.ToInt32(dt.Rows[i]["nextchild"].ToString()) > 0)
+                {
+                    sb.Append("<li><a href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["plink"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["ptitle"].ToString() + "</a>");
+                    BuilMenuSub(menu.GetChildMenu(dt.Rows[i]["pid"].ToString().Trim()));
+                }
+                else
+                {
+                    sb.Append("<li><a href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["plink"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["ptitle"].ToString() + "</a>");
+                }
+                sb.Append("</li>");
+            }
+            sb.Append("</div></ul>");
+        }
+        return sb.ToString();
+    }
+}

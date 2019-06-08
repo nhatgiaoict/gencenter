@@ -1,0 +1,162 @@
+/* r.a.d.calendar 1.6 inox skin */
+
+/* main calendar table */
+.calendarWrapper
+{
+	font: bold 11px Verdana, Arial, Sans-serif;
+	cursor: default;
+	border-right: solid 1px #868b8f;
+	border-bottom: solid 1px #868b8f;
+	border-left: solid 1px #bec1c3;
+	border-top: solid 1px #bec1c3;
+	background:	#eee url('Img/TitleBgFix.gif') repeat-x;
+}
+
+/* cell links */
+.calendarWrapper a
+{
+	color: #666;
+	cursor: default;
+	text-decoration: none;
+}
+
+/* calendar cells */
+.calendarWrapper td
+{
+	text-align: center;
+}
+
+/* calendar titlebar */
+table.titlebar
+{
+	width: 231px;
+	height: 31px;
+	color: #7b838e;
+	font-size: 12px;
+	font-weight: bold;
+	background: transparent url(Img/titleBg.gif) no-repeat center;
+	margin: 1px;
+	margin-bottom: 0px;
+}
+
+/* navigation arrows in the titlebar */
+table.titlebar td img
+{
+	cursor: hand;
+}
+
+/* calendar layout */
+table.TableLayout
+{
+	width: 231px;
+	background: #bbbbbb url(Img/calendarBg.gif) repeat-y;
+	margin: 1px;
+	margin-top: 0px;
+	border-collapse: separate !important;
+}
+
+/* calendar cells */
+table.TableLayout td
+{
+	width: 30px;
+	height: 22px;
+}
+
+/* days of the week header */
+td.DaysOfWeek
+{
+	font-weight: bold;
+	color: #f0f5f6;
+	background: transparent url(Img/DaysOfWeek.gif) repeat-x;
+	height: 24px !important;
+}
+
+/* cells start */
+.radCalDefault, .radCalWeekendDefault
+{
+	border-left: solid 1px #dcdddf;
+	border-top: solid 1px #dcdddf;
+	border-right: solid 1px #b5bac0;
+	border-bottom: solid 1px #b5bac0;
+}
+
+.radCalHover, .radCalWeekendHover
+{
+	background: url(Img/hoverBg.gif) repeat;
+	border-left: solid 1px #dcdddf;
+	border-top: solid 1px #dcdddf;
+	border-right: solid 1px #b5bac0;
+	border-bottom: solid 1px #b5bac0;
+}
+.radCalToday
+{
+	border-left: solid 1px #dcdddf;
+	border-top: solid 1px #dcdddf;
+	border-right: solid 1px #b5bac0;
+	border-bottom: solid 1px #b5bac0;
+	background-color: #fff;
+}
+.radCalSelect, .radCalWeekendSelect
+{
+	border-left: solid 1px #dcdddf;
+	border-top: solid 1px #dcdddf;
+	border-right: solid 1px #b5bac0;
+	border-bottom: solid 1px #b5bac0;
+	background: url(Img/selectBg.gif) repeat;
+}
+
+.otherMonth
+{
+	color: #eaeaea;
+	border-left: solid 1px #dcdddf;
+	border-top: solid 1px #dcdddf;
+	border-right: solid 1px #b5bac0;
+	border-bottom: solid 1px #b5bac0;
+}
+/* cells end */
+
+/* previous and next month preview cells */
+.radCalPreviewDefault
+{
+	background: #fff url(Img/calendarBg.gif) repeat-y;
+	border: solid 1px #868b8f;
+	border-right: 3px solid #868b8f;
+	border-bottom: 3px solid #868b8f;
+}
+
+/* titlebar menu */
+.MonthYearFastNav
+{
+	font: normal 10px Verdana, Arial, Sans-serif;
+	color: #666;
+	border: solid 1px #868b8f;
+	background-color: #eee;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#666666,strength=3);
+	cursor: hand;
+	cursor: pointer; /* Mozilla */
+}
+
+.MonthYearFastNav td
+{
+	border-bottom: solid 1px #868b8f;
+	height: 19px;
+	color: #666;
+}
+
+.MonthYearFastNav td.selected
+{
+	background: #eee url(Img/MonthYearFastNavSelected.gif);
+}
+
+/* Today, OK and Cancel buttons in the titlebar menu */
+.MonthYearFastNav td input
+{
+	background: transparent url(Img/MonthYearFastNavBtnBg.gif) repeat-x;
+	border: solid 1px #868b8f;
+	font: normal 10px Verdana;
+	color: #666;
+	float: left;
+	margin: 1px;
+	height: 19px;
+}

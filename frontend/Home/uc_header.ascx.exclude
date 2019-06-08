@@ -1,0 +1,25 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_header.ascx.cs" Inherits="Home_uc_header" %>
+
+
+<header>
+    <div id="header" class="bghead">    
+        <div class="container">
+                <div class="col-md-1 col-sm-12 col-xs-12"><span class="logo-s2home"><a href="<%=Globals.UrlHot%>"><img src="/images/logo.jpg" alt="s2Home"  ></a>
+                    </span>
+                </div>
+                <div class="col-md-11 col-sm-12 col-xs-12">
+                   <div class="row"> 
+                    <div class="navbar-header">
+                        <button class="btn responsive-menu pull-left collapsed" data-toggle="collapse" data-target=".navbar-collapse">Menu</button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul id="main-menu" class="sm sm-clean">
+                        <li><a class="active" href="<%=Globals.UrlHot%>"><i class="fa fa-home"></i></a></li> 
+                        <asp:Literal ID="ltlMenu" runat="server"></asp:Literal>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
+        </div>
+     </div>    
+</header>

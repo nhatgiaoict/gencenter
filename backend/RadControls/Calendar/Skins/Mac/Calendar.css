@@ -1,0 +1,182 @@
+.calendarWrapper
+{
+	border: 0px;
+	cursor: default;
+}
+.radCalDefault, .radCalWeekendDefault
+{
+	width: 21px;
+	height: 20px;
+	text-align: center;
+}
+.radCalPreviewDefault
+{
+	width: 170px;
+	text-align: center;
+	background-image: url(Img/calendarBg.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 28px;
+	border: solid 1px #ebebeb;
+}
+.radCalHover, .radCalWeekendHover
+{
+	width: 21px;
+	height: 20px;
+	background-image: url(Img/hoverBg.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	cursor: default;
+	text-align: center;
+}
+.radCalToday
+{
+	width: 21px;
+	height: 20px;
+	background-color: white;
+	text-align: center;
+}
+.radCalSelect, .radCalWeekendSelect
+{
+	width: 21px;
+	height: 20px;
+	background-image: url(Img/selectBg.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: center;
+}
+.DaysOfWeek
+{
+	font-weight: bold;
+	color: #535353;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	height: 11px;
+	cursor: default;
+	background-color: Transparent;
+	text-align: center;
+	padding: 0px 3px;
+}
+
+.otherMonth
+{
+	color: #fff;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	width: 21px;
+	height: 20px;
+	background-color: transparent;
+	cursor: default;
+	text-align: center;
+}
+
+.titlebar
+{
+	border: solid 1px #b2b2b2;
+	color: #000000;
+	font-family: Arial, Verdana, Sans-Serif;
+	background-image: url(Img/titleBg.gif);
+	background-repeat: repeat-x;
+	font-size: 8pt;
+	font-weight: normal;
+	height: 14px;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+}
+
+.TableLayout
+{
+	background-image: url(Img/calendarBg.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 13px;
+}
+
+/*** MonthYearFastNav ***/
+.MonthYearFastNav
+{
+	border: 1px solid #d6d6d6;
+	background-color: #ffffff;
+	font: normal 10px Verdana;
+	color: #000000;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#666666,strength=3);
+}
+
+.MonthYearFastNav TD
+{
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #d6d6d6;
+	cursor: hand;
+}
+
+.MonthYearFastNav TD.selected
+{
+	border-color: #cecece;
+	background-color: #cecece;
+	color: #ffffff;
+}
+
+.MonthYearFastNav TD.bottom
+{
+	text-align: center;
+}
+
+.MonthYearFastNav TD INPUT
+{
+	background-image: url(Img/MonthYearFastNavBtnBg.gif);
+	background-repeat: repeat-x;
+	border-top: solid 1px #666c59;
+	border-left: solid 1px #666c59;
+	border-right: solid 1px #aaaf9e;
+	border-bottom: solid 1px #aaaf9e;
+	font: normal 10px Verdana;
+	color: #000000;
+	float: left;
+	margin-right: 1px;
+}
+/*** MonthYearFastNav ***/
+/* cell links */
+.radCalDefault A, .radCalWeekendDefault A
+{
+	color: #4c4c4c;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+.radCalHover A, .radCalWeekendHover A
+{
+	color: #fff;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+.radCalSelect A, .radCalWeekendSelect A
+{
+	color: #fff;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: default;
+	text-decoration: none;
+}
+.radCalToday A
+{
+	color: #7f7f7f;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 8pt;
+	font-weight: bold;
+	border: solid 1px #d2f24f;
+	display:block;
+	height: 21px;
+	padding-top:7px;
+	background-color: white;
+	cursor: default;
+	text-decoration: none;
+}
+/* cell links end */

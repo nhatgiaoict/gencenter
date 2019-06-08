@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataSet>
+	<Language>
+		<id>vn</id>
+		<title>Tiếng việt</title>
+	</Language>
+	<!--<Language>
+		<id>en</id>
+		<title>English</title>
+	</Language>-->
+</DataSet>
