@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_detailnews.ascx.cs" Inherits="Detail_uc_detailnews" %>
 <section id="news-cate">
-    <div class="heading-catagories" style="<%=sBg%>">
+    <div class="heading-catagories">
          <h2><asp:Literal ID="ltltitlegroup" runat="server"></asp:Literal></h2>
     </div><!--End-->
     <div class="container">
