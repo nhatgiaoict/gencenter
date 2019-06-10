@@ -1,48 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:8001", "http://localhost:8001", "{5992C71A-358C-4100-AEB7-E9959C22B755}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:8001", "http://localhost:8001", "{067519FF-E309-4303-8891-CD9DDA3373BF}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_8001"
-		Debug.AspNetCompiler.PhysicalPath = "frontend\"
+		Debug.AspNetCompiler.PhysicalPath = "..\gencenter2\frontend\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8001\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_8001"
-		Release.AspNetCompiler.PhysicalPath = "frontend\"
+		Release.AspNetCompiler.PhysicalPath = "..\gencenter2\frontend\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8001\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "frontend\"
+		SlnRelativePath = "..\gencenter2\frontend\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:8002", "http://localhost:8002", "{8790B61F-4A32-4C3E-A52F-B46E8BCC7D07}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://localhost:8002", "http://localhost:8002", "{77356A9B-03A1-4515-BAFD-32C33B5F39E7}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_8002"
-		Debug.AspNetCompiler.PhysicalPath = "backend\"
+		Debug.AspNetCompiler.PhysicalPath = "..\gencenter2\backend\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8002\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_8002"
-		Release.AspNetCompiler.PhysicalPath = "backend\"
+		Release.AspNetCompiler.PhysicalPath = "..\gencenter2\backend\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8002\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "backend\"
+		SlnRelativePath = "..\gencenter2\backend\"
 	EndProjectSection
 EndProject
 Global
@@ -50,15 +50,15 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5992C71A-358C-4100-AEB7-E9959C22B755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5992C71A-358C-4100-AEB7-E9959C22B755}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8790B61F-4A32-4C3E-A52F-B46E8BCC7D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8790B61F-4A32-4C3E-A52F-B46E8BCC7D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067519FF-E309-4303-8891-CD9DDA3373BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067519FF-E309-4303-8891-CD9DDA3373BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77356A9B-03A1-4515-BAFD-32C33B5F39E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77356A9B-03A1-4515-BAFD-32C33B5F39E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {53B85F10-69EA-4A3A-A2BA-08E57E656546}
+		SolutionGuid = {E6157632-63F4-4DB1-AEF7-EB1940506189}
 	EndGlobalSection
 EndGlobal
