@@ -15,6 +15,7 @@ public partial class control_uc_parentnews : System.Web.UI.UserControl
 {
     private Groups sGroup = new Groups();
     private News sNew = null;
+    public string tesst = "";
     private string groupid
     {
         get
@@ -49,40 +50,6 @@ public partial class control_uc_parentnews : System.Web.UI.UserControl
             rptN.DataBind();
             Paging paging = new Paging();
             ltlPage.Text = paging.PhanTrang(cPage, Convert.ToInt32(Globals.TotalNew), TotalRecords);
-            sDuannoibat(sNew.GetDuannoibat(8));
         }
     }
-    private void sDuannoibat(DataTable dt)
-    {
-        string sTemp = string.Empty;
-        for (int i = 0; i < dt.Rows.Count; i++)
-        {
-            if (i == 0)
-            {
-                sTemp += "<figure><img alt=\"" + dt.Rows[i]["title"].ToString().Trim() + "\" src=\"" + dt.Rows[i]["fimage"].ToString().Trim() + "\"></figure>";
-                sTemp += "<li><a href=\"/" + dt.Rows[i]["shortlink"].ToString().Trim() + ".html\">" + dt.Rows[i]["title"].ToString().Trim() + "</a></li>";
-            }
-            else
-            {
-                sTemp += "<li><a href=\"/" + dt.Rows[i]["shortlink"].ToString().Trim() + ".html\">" + dt.Rows[i]["title"].ToString().Trim() + "</a></li>";
-            }
-        }
-        ltlNoidung.Text = sTemp;
-    }
-    //private string MenuCT(DataTable dt)
-    //{
-    //    string sTemp = string.Empty;
-    //    for (int i = 0; i < dt.Rows.Count; i++)
-    //    {
-    //        if (i == dt.Rows.Count - 1)
-    //        {
-    //            sTemp += "<li><h1><a class=\"active\" href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["link"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["title"].ToString().Trim() + "</a></h1></li>";
-    //        }
-    //        else
-    //        {
-    //            sTemp += "<li><a href=\"" + CMDU.CommanUrl.UrlGroup(dt.Rows[i]["link"].ToString(), dt.Rows[i]["shortlink"].ToString()) + "\">" + dt.Rows[i]["title"].ToString().Trim() + "</a></li>";
-    //        }
-    //    }
-    //    return sTemp;
-    //}
 }

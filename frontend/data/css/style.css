@@ -19519,7 +19519,7 @@ button.list-group-item-danger.active:focus {
 }
 
 .breadcrumb-modern {
-    background-image: url(../images/background-breadcrumbs-01-1920x345.jpg);
+    background-image: url(/data/images/background-breadcrumbs-01-1920x345.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -20066,8 +20066,8 @@ html .group-sm {
 
 html .group-sm>*:not(.group-item) {
     display: inline-block;
-    margin-top: 9px;
-    margin-left: 9px
+    margin-top: 8px;
+    margin-left: 8px
 }
 
 html .group-sm>.group-item {

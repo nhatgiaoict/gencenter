@@ -24,6 +24,7 @@ public partial class Parent_uc_menucontext : System.Web.UI.UserControl
                 if (dr != null)
                 {
                     _groupid = dr["id"].ToString().Trim();
+                    ltltitleG.Text = dr["title"].ToString().Trim();
                 }
             }
             return _groupid;

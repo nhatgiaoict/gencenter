@@ -73,18 +73,12 @@ public partial class news_update : System.Web.UI.UserControl
             ltlSummary.Text = Language.GetTextByID(31);
             ltlRequireSummary.Text = Language.GetTextByID(32);
             tbxSummary.Attributes.Add("style", "width:330px;height:160px");
-            hlLogo.Text = Language.GetTextByID(33);
             ltlContent.Text = "(*) " + Language.GetTextByID(35);
             ltlRequireContent.Text = Language.GetTextByID(36);
             btnRegister.Text = Language.GetTextByID(37);
 
             ltlGhichu.Text = Language.GetTextByID(169);
             txtGhichu.Attributes.Add("style", "width:350px;height:50px");
-
-            imgSelect.Attributes.Add("style", "cursor:hand; cursor:pointer");
-            imgSelect.Src = Globals.UrlImages + "folder.gif";
-            imgSelect.Attributes.Add("onclick", "SelectFile('" + txtFileImages.ClientID + "')");
-
 
             News news = new News();
             DataRow dr = news.GetInfo(id);
@@ -106,7 +100,7 @@ public partial class news_update : System.Web.UI.UserControl
                 {
                     imgLogo.ImageUrl = Globals.UrlRootImages + sGetPath;
                 }
-                txtFileImages.Text = sGetPath;
+                txtFileImages.Value = sGetPath;
             }
             else
             {
@@ -240,7 +234,7 @@ public partial class news_update : System.Web.UI.UserControl
         else
             ltlRequireGroup.Visible = false;
 
-        string sFilename = txtFileImages.Text;
+        string sFilename = txtFileImages.Value;
         string vwidth = "200";// tbxWidth.Text.Trim();
         string vheigth = "200";// tbxHeight.Text.Trim();
         string sShortLink = txtShotlink.Value.Trim();

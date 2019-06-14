@@ -111,12 +111,12 @@ $(function () {
 <tr>
 <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif">&nbsp;<asp:HyperLink ID="hlList" runat="server">Danh sách bài viết</asp:HyperLink></td>
 </tr>
-<tr>
+<%--<tr>
 <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif"><a href="/news/addvanban.aspx"> Thêm mới bài viết dự án</a></td>
 </tr>
 <tr>
 <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif"><a href="/news/listvanban.aspx">Quản trị bài viết dự án</a></td>
-</tr>
+</tr>--%>
 </table>
 <!---------------->
 <table class="MenuLeft" id="tblOrgNews" style="border-collapse: collapse" bordercolor="#ffffff"
@@ -126,7 +126,7 @@ $(function () {
         <td style="padding-left: 5px"><img style="border-width:0px;" src="/data/images/icon_menu.gif" />&nbsp;<asp:Literal
                 ID="ltlOrgNews" runat="server" Text="Tổ chức "></asp:Literal></td>
     </tr>
-    <tr>
+    <%--<tr>
         <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif" />&nbsp;<a href="/publish/Moinhat_home.aspx">Tổ chức Team</a></td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@ $(function () {
     </tr>
     <tr>
         <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif" />&nbsp;<a href="/publish/Ykienkhachhang.aspx">Tổ chức tin ý kiến khách hàng</a></td>
-    </tr>
+    </tr>--%>
     <%--<tr>
         <td style="padding-left: 8px"><img style="border-width:0px;" src="/data/images/icon_new.gif" />&nbsp;
         <a href="/YahooHelp/ManagerYhaoo.aspx">Quản lý yahoo</a></td>

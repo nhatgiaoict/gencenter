@@ -84,24 +84,24 @@ public class Paging
         if (recordcount > recordinpage)
         {
             //dau tien
-            if (curpage != 1)
-            {
-                int l = 1;
-                str += "<li><a class='' href=\"" + pageaspx + "";
-                str += "page=" + l.ToString();
-                str += "\">First</a></li>";
-            }
+            //if (curpage != 1)
+            //{
+            //    int l = 1;
+            //    str += "<li><a class='' href=\"" + pageaspx + "";
+            //    str += "page=" + l.ToString();
+            //    str += "\">First</a></li>";
+            //}
 
-            //dau
-            if (curpage != 1)
-            {
-                int l = 0;
-                l = curpage - 1;
-                str += "<li><a class='' href=\"" + pageaspx + "";
-                str += "page=" + l.ToString();
-                //str += "\">" + Language.GetTextByID(900) + "</a>";
-                str += "\">Previous</a></li>";
-            }
+            ////dau
+            //if (curpage != 1)
+            //{
+            //    int l = 0;
+            //    l = curpage - 1;
+            //    str += "<li><a class='' href=\"" + pageaspx + "";
+            //    str += "page=" + l.ToString();
+            //    //str += "\">" + Language.GetTextByID(900) + "</a>";
+            //    str += "\">Previous</a></li>";
+            //}
 
             //giua
             int middle = end;
@@ -124,24 +124,24 @@ public class Paging
             }
 
             //cuoi
-            if (curpage < k)
-            {
-                int l = 0;
-                l = curpage + 1;
-                str += "<li><a class='' href=\"" + pageaspx + "";
-                str += "page=" + l.ToString();
-                //str += "\">" + Language.GetTextByID(901) + "</a>";
-                str += "\">Next</a></li>";
-            }
-            //cuoi cung
-            if (curpage < k)
-            {
-                int l = 0;
-                l = k;
-                str += "<li> <a class='' href=\"" + pageaspx + "";
-                str += "page=" + l.ToString();
-                str += "\">Last</a></li>";
-            }
+        //    if (curpage < k)
+        //    {
+        //        int l = 0;
+        //        l = curpage + 1;
+        //        str += "<li><a class='' href=\"" + pageaspx + "";
+        //        str += "page=" + l.ToString();
+        //        //str += "\">" + Language.GetTextByID(901) + "</a>";
+        //        str += "\">Next</a></li>";
+        //    }
+        //    //cuoi cung
+        //    if (curpage < k)
+        //    {
+        //        int l = 0;
+        //        l = k;
+        //        str += "<li> <a class='' href=\"" + pageaspx + "";
+        //        str += "page=" + l.ToString();
+        //        str += "\">Last</a></li>";
+        //    }
         }
         else
         {

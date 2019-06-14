@@ -39,7 +39,7 @@
                   </div>
                 </div>
                 <div class="cell-xs-10 offset-top-66 cell-md-4 cell-md-push-1 offset-md-top-0">
-                  <div class="footer-brand"><a href="index-2.html"><img width='151' height='52' class='img-responsive' src='data/images/logo-dark.png' alt=''/></a></div>
+                  <div class="footer-brand"><a href="index-2.html"><img width='151' height='52' class='img-responsive' src='/data/images/logo-dark.png' alt=''/></a></div>
                   <div class="offset-top-30">
                           <ul class="list-inline">
                             <li><a class="icon fa fa-facebook icon-xxs icon-circle icon-white" href="#"></a></li>

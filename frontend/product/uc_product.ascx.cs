@@ -28,7 +28,6 @@ public partial class product_uc_product : System.Web.UI.UserControl
                 if (dr != null)
                 {
                     _groupid = dr["id"].ToString().Trim();
-                    ltltitleG.Text = dr["title"].ToString().Trim();
                     if (dr["fimages"].ToString().Trim().Length > 0)
                     {
                         sBg = "background:url(/" + dr["fimages"].ToString().Trim() + ");";
